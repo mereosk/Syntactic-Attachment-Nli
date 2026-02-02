@@ -12,7 +12,7 @@ Each example contains:
 
 ## Statistics
 
-These statistics say that the data are indeed ambiguous. For more see [docs/methodology.md](docs/methodology.md)
+These statistics say that the data are indeed ambiguous. For more see [docs/methodology.md](../docs/methodology.md)
 
 | Phenomenon | Count | Pass Rate |
 |------------|-------|-----------|

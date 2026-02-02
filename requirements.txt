@@ -1,0 +1,16 @@
+# Core Machine Learning & NLP
+torch>=2.0.0
+transformers>=4.30.0
+scipy>=1.10.0
+
+# Data Manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization (referenced in src/visualization.py)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Environment & Notebooks
+jupyter>=1.0.0
+python-dotenv>=1.0.0

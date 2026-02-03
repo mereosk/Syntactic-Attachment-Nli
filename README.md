@@ -27,11 +27,15 @@ cd syntactic-attachment-nli
 pip install -r requirements.txt
 ```
 
+> ⚠️ Note: This project uses package-based imports.
+> Always run scripts using `python -m ...` from the repository root.
+
+
 ### Run Analysis
 
 **Option 1: Command Line**
 ```bash
-python src/main.py
+python -m scripts.run_evaluation
 ```
 
 **Option 2: Jupyter Notebook**
@@ -41,10 +45,11 @@ jupyter notebook notebooks/model_evaluation.ipynb
 
 **Option 3: Import as Module**
 ```python
-from src.analysis import analyze_model_by_phenomenon, load_data
+from src.utils import load_data
+from src.analysis import analyze_model_by_phenomenon
 
-data = load_data('data/better_data.json')
-results = analyze_model_by_phenomenon('roberta-large-mnli', data)
+data = load_data()
+results = analyze_model_by_phenomenon("roberta-large-mnli", data)
 ```
 
 ## 📈 Results
@@ -64,14 +69,21 @@ See `results/` for detailed outputs.
 
 ## 📁 Repository Structure
 ```
+syntactic-attachment-nli/
 ├── data/                  # Dataset (60 triplets)
-├── src/                   # Source code
-│   ├── analysis.py        # Core evaluation logic
-│   ├── visualization.py   # Plotting functions
-│   └── config.py          # Configuration
+├── src/                   # Core package
+│   ├── __init__.py
+│   ├── analysis.py
+│   ├── visualization.py
+│   ├── utils.py
+│   └── config.py
+├── scripts/               # Entry points
+│   ├── __init__.py
+│   └── run_evaluation.py
 ├── notebooks/             # Jupyter notebook
-├── results/               # Generated outputs
-└── docs/                  # Documentation
+├── results/               # Generated figures and tables
+├── docs/                  # Documentation
+└── requirements.txt
 ```
 
 ## 🔧 Dependencies

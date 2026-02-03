@@ -206,8 +206,8 @@
     "hypothesis_ba": "The table was wearing reading glasses.",
     "hypothesis_bb": "The student was wearing reading glasses.",
     "type": "Serial Attachment",
-    "attachment_a": "Nested (Modifies Noun 1: Table)",
-    "attachment_b": "Flat (Modifies Verb: Studied / Subject: Student)"
+    "attachment_a": "Nested (Modifies Noun 1)",
+    "attachment_b": "Flat (Modifies Verb)"
   },
   {
     "id": "S15",
@@ -299,6 +299,7 @@
     "attachment_a": "Nested (Modifies Noun 1)",
     "attachment_b": "Flat (Modifies Verb)"
   },
+
     {
     "id": "T1",
     "premise": "The CEO promised the board to resign on Monday.",
@@ -370,7 +371,7 @@
     "premise_b": "The knight vowed to defend the king with a sword.",
     "hypothesis_ba": "The vow was made with a sword.",
     "hypothesis_bb": "The defense is to happen with a sword.",
-    "type": "temporal/instrumental",
+    "type": "temporal",
     "attachment_a": "Matrix Verb (vowed)",
     "attachment_b": "Embedded Verb (defend)"
   },
@@ -400,7 +401,7 @@
     "premise_b": "The chef promised to bake the bread until golden brown.",
     "hypothesis_ba": "The promising happened until golden brown.",
     "hypothesis_bb": "The baking is to be until golden brown.",
-    "type": "temporal/manner",
+    "type": "temporal",
     "attachment_a": "Matrix Verb (V1)",
     "attachment_b": "Embedded Verb (V2)"
   },
@@ -449,7 +450,7 @@
     "attachment_a": "Matrix Verb (V1)",
     "attachment_b": "Embedded Verb (V2)"
   },
-{
+ {
     "id": "T11",
     "premise": "The athlete offered to run the race on Sunday.",
     "hypothesis_a": "The offering happened on Sunday.",
@@ -460,7 +461,7 @@
     "premise_b": "The athlete offered to run the race barefoot.",
     "hypothesis_ba": "The offering happened barefoot.",
     "hypothesis_bb": "The running is to be barefoot.",
-    "type": "temporal/manner",
+    "type": "temporal",
     "attachment_a": "Matrix Verb (V1)",
     "attachment_b": "Embedded Verb (V2)"
   },
@@ -898,5 +899,5 @@
     "type": "Instrument vs Possession",
     "attachment_a": "Subject/Verb",
     "attachment_b": "Object"
-  }
+}
 ]

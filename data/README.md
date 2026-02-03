@@ -16,7 +16,7 @@ These statistics say that the data are indeed ambiguous. For more see [docs/meth
 
 | Phenomenon | Count | Pass Rate |
 |------------|-------|-----------|
-| Temporal   | 20    | 75%       |
-| Instrument | 20    | 68%       |
-| Serial     | 20    | 70%       |
-| **Total**  | **60**| **71%**   |
+| Temporal   | 20    | 100%       |
+| Instrument | 20    | 100%       |
+| Serial     | 20    | 100%       |
+| **Total**  | **60**| **100%**   |

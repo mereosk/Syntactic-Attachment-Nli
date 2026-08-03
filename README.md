@@ -1,13 +1,15 @@
 # Syntactic Attachment Ambiguity in NLI Models
 
-Evaluation of how NLI models handle syntactic attachment ambiguities across three linguistic phenomena.
+Evaluation of how NLI models handle syntactic attachment ambiguities, spanning two syntactic phenomena across three semantic domains.
 
 ## 📊 Dataset
 
-60 minimal pair triplets (180 premise-hypothesis pairs):
-- **Temporal Attachment** (20): High vs. Low attachment  
-- **Instrument vs. Possession** (20): Prepositional phrase attachment
-- **Serial/Multiple Attachment** (20): Nested vs. Flat modification
+110 minimal pair items:
+- **Matrix vs Embedded Verb Attachment** (40): adjunct scope over one of two verbs in control constructions (e.g. "promised ... to resign on Monday")
+- **Verb Instrument vs Object Attribute** (40): PP-attachment to the verb (instrument/comitative) vs. the object noun (possession/attribute)
+- **Serial Attachment** (30): PP-attachment nested in a preceding noun vs. flat on the main clause
+
+Instrument/Attribute and Serial Attachment are both instances of the same underlying noun-vs-verb PP-attachment ambiguity, applied to different semantic content; Matrix vs Embedded Verb Attachment is a structurally distinct verb-vs-verb scope ambiguity. See `docs/methodology.md` for the full breakdown.
 
 ### Data Generation
 Data was generated through:
@@ -70,7 +72,7 @@ See `results/` for detailed outputs.
 ## 📁 Repository Structure
 ```
 syntactic-attachment-nli/
-├── data/                  # Dataset (60 triplets)
+├── data/                  # Dataset (110 items)
 ├── src/                   # Core package
 │   ├── __init__.py
 │   ├── analysis.py

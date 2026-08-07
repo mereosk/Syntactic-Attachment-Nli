@@ -101,12 +101,12 @@ See `requirements.txt` for versions.
 
 ## 📝 Citation
 ```bibtex
-@misc{yourname2025syntactic,
+@misc{anonymous2025syntactic,
   title        = {Syntactic Attachment Ambiguity in NLI Models: Dataset and Evaluation},
-  author       = {Bloemendaal, Jelle and Mereos, Konstantinos},
+  author       = {Anonymous},
   year         = {2025},
   publisher    = {GitHub},
-  howpublished = {\url{https://github.com/mereosk/syntactic-attachment-nli}},
+  howpublished = {\url{https://anonymous.4open.science/r/your-anon-link-here}},
   note         = {Unpublished manuscript/Project repository}
 }
 ```

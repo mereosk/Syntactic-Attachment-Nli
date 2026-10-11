@@ -1,0 +1,4 @@
+.env
+__pycache__/
+data/human_results/v1.csv
+data/human_results/v2.csv

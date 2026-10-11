@@ -1,0 +1,17 @@
+participant,checks,failed,excluded
+v1_p1,10,10,True
+v1_p2,10,0,False
+v1_p3,10,0,False
+v1_p4,10,3,True
+v1_p5,10,1,False
+v1_p6,10,1,False
+v2_p1,10,0,False
+v2_p10,10,0,False
+v2_p2,10,0,False
+v2_p3,10,0,False
+v2_p4,10,1,False
+v2_p5,10,1,False
+v2_p6,10,0,False
+v2_p7,10,0,False
+v2_p8,10,4,True
+v2_p9,10,0,False

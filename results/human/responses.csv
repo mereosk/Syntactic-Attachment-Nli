@@ -1,0 +1,1691 @@
+participant,version,item_id,section,category,answer,human_lean
+v1_p2,1,T20,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T20,T,Mtx/Emb,Clearly B,-2
+v1_p5,1,T20,T,Mtx/Emb,Somewhat B,-1
+v1_p6,1,T20,T,Mtx/Emb,Clearly A,2
+v1_p2,1,T17,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T17,T,Mtx/Emb,Both equally natural,0
+v1_p5,1,T17,T,Mtx/Emb,Somewhat B,1
+v1_p6,1,T17,T,Mtx/Emb,Clearly B,2
+v1_p2,1,S17,S,Ser/Mul,Clearly A,2
+v1_p3,1,S17,S,Ser/Mul,Clearly B,-2
+v1_p5,1,S17,S,Ser/Mul,Somewhat A,1
+v1_p6,1,S17,S,Ser/Mul,Somewhat A,1
+v1_p2,1,S14,S,Ser/Mul,Clearly A,2
+v1_p3,1,S14,S,Ser/Mul,Clearly A,2
+v1_p5,1,S14,S,Ser/Mul,Somewhat A,1
+v1_p6,1,S14,S,Ser/Mul,Clearly A,2
+v1_p2,1,S2,S,Ser/Mul,Both equally natural,0
+v1_p3,1,S2,S,Ser/Mul,Clearly A,2
+v1_p5,1,S2,S,Ser/Mul,Somewhat B,-1
+v1_p6,1,S2,S,Ser/Mul,Clearly A,2
+v1_p2,1,S21,S,Ser/Mul,Clearly B,2
+v1_p3,1,S21,S,Ser/Mul,Clearly B,2
+v1_p5,1,S21,S,Ser/Mul,Somewhat A,-1
+v1_p6,1,S21,S,Ser/Mul,Somewhat A,-1
+v1_p2,1,S20,S,Ser/Mul,Clearly A,2
+v1_p3,1,S20,S,Ser/Mul,Clearly A,2
+v1_p5,1,S20,S,Ser/Mul,Somewhat A,1
+v1_p6,1,S20,S,Ser/Mul,Clearly A,2
+v1_p2,1,I3,I,Ins/Pos,Clearly A,-2
+v1_p3,1,I3,I,Ins/Pos,Clearly B,2
+v1_p5,1,I3,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I3,I,Ins/Pos,Somewhat A,-1
+v1_p2,1,I47,I,Ins/Pos,Clearly B,-2
+v1_p3,1,I47,I,Ins/Pos,Clearly A,2
+v1_p5,1,I47,I,Ins/Pos,Somewhat B,-1
+v1_p6,1,I47,I,Ins/Pos,Clearly B,-2
+v1_p2,1,T30,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T30,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T30,T,Mtx/Emb,Somewhat B,1
+v1_p6,1,T30,T,Mtx/Emb,Clearly B,2
+v1_p2,1,T49,T,Mtx/Emb,Clearly A,-2
+v1_p3,1,T49,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T49,T,Mtx/Emb,Clearly B,2
+v1_p6,1,T49,T,Mtx/Emb,Somewhat B,1
+v1_p2,1,T36,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T36,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T36,T,Mtx/Emb,Somewhat A,1
+v1_p6,1,T36,T,Mtx/Emb,Clearly A,2
+v1_p2,1,T38,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T38,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T38,T,Mtx/Emb,Somewhat A,1
+v1_p6,1,T38,T,Mtx/Emb,Clearly A,2
+v1_p2,1,S24,S,Ser/Mul,Both equally natural,0
+v1_p3,1,S24,S,Ser/Mul,Clearly B,2
+v1_p5,1,S24,S,Ser/Mul,Somewhat B,1
+v1_p6,1,S24,S,Ser/Mul,Clearly B,2
+v1_p2,1,I26,I,Ins/Pos,Clearly B,2
+v1_p3,1,I26,I,Ins/Pos,Clearly B,2
+v1_p5,1,I26,I,Ins/Pos,Somewhat B,1
+v1_p6,1,I26,I,Ins/Pos,Somewhat A,-1
+v1_p2,1,T33,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T33,T,Mtx/Emb,Clearly A,-2
+v1_p5,1,T33,T,Mtx/Emb,Somewhat A,-1
+v1_p6,1,T33,T,Mtx/Emb,Somewhat B,1
+v1_p2,1,I46,I,Ins/Pos,Clearly A,-2
+v1_p3,1,I46,I,Ins/Pos,Clearly A,-2
+v1_p5,1,I46,I,Ins/Pos,Somewhat A,-1
+v1_p6,1,I46,I,Ins/Pos,Somewhat A,-1
+v1_p2,1,T16,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T16,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T16,T,Mtx/Emb,Somewhat B,1
+v1_p6,1,T16,T,Mtx/Emb,Somewhat B,1
+v1_p2,1,S23,S,Ser/Mul,Clearly B,2
+v1_p3,1,S23,S,Ser/Mul,Clearly B,2
+v1_p5,1,S23,S,Ser/Mul,Somewhat A,-1
+v1_p6,1,S23,S,Ser/Mul,Somewhat B,1
+v1_p2,1,T23,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T23,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T23,T,Mtx/Emb,Somewhat B,1
+v1_p6,1,T23,T,Mtx/Emb,Clearly B,2
+v1_p2,1,I36,I,Ins/Pos,Clearly B,2
+v1_p3,1,I36,I,Ins/Pos,Clearly B,2
+v1_p5,1,I36,I,Ins/Pos,Somewhat B,1
+v1_p6,1,I36,I,Ins/Pos,Somewhat B,1
+v1_p2,1,T2,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T2,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T2,T,Mtx/Emb,Somewhat A,1
+v1_p6,1,T2,T,Mtx/Emb,Somewhat A,1
+v1_p2,1,T6,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T6,T,Mtx/Emb,Clearly B,-2
+v1_p5,1,T6,T,Mtx/Emb,Somewhat A,1
+v1_p6,1,T6,T,Mtx/Emb,Somewhat A,1
+v1_p2,1,I39,I,Ins/Pos,Clearly B,-2
+v1_p3,1,I39,I,Ins/Pos,Clearly A,2
+v1_p5,1,I39,I,Ins/Pos,Somewhat B,-1
+v1_p6,1,I39,I,Ins/Pos,Somewhat B,-1
+v1_p2,1,T18,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T18,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T18,T,Mtx/Emb,Somewhat B,1
+v1_p6,1,T18,T,Mtx/Emb,Clearly B,2
+v1_p2,1,T25,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T25,T,Mtx/Emb,Clearly B,-2
+v1_p5,1,T25,T,Mtx/Emb,Clearly A,2
+v1_p6,1,T25,T,Mtx/Emb,Somewhat A,1
+v1_p2,1,T48,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T48,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T48,T,Mtx/Emb,Clearly B,2
+v1_p6,1,T48,T,Mtx/Emb,Somewhat B,1
+v1_p2,1,S29,S,Ser/Mul,Both equally natural,0
+v1_p3,1,S29,S,Ser/Mul,Clearly A,2
+v1_p5,1,S29,S,Ser/Mul,Somewhat A,1
+v1_p6,1,S29,S,Ser/Mul,Somewhat A,1
+v1_p2,1,I40,I,Ins/Pos,Clearly A,2
+v1_p3,1,I40,I,Ins/Pos,Clearly B,-2
+v1_p5,1,I40,I,Ins/Pos,Somewhat B,-1
+v1_p6,1,I40,I,Ins/Pos,Somewhat B,-1
+v1_p2,1,I35,I,Ins/Pos,Clearly A,-2
+v1_p3,1,I35,I,Ins/Pos,Clearly A,-2
+v1_p5,1,I35,I,Ins/Pos,Somewhat A,-1
+v1_p6,1,I35,I,Ins/Pos,Somewhat A,-1
+v1_p2,1,I22,I,Ins/Pos,Clearly A,-2
+v1_p3,1,I22,I,Ins/Pos,Clearly B,2
+v1_p5,1,I22,I,Ins/Pos,Somewhat A,-1
+v1_p6,1,I22,I,Ins/Pos,Somewhat B,1
+v1_p2,1,I15,I,Ins/Pos,Clearly B,-2
+v1_p3,1,I15,I,Ins/Pos,Both equally natural,0
+v1_p5,1,I15,I,Ins/Pos,Somewhat B,-1
+v1_p6,1,I15,I,Ins/Pos,Clearly B,-2
+v1_p2,1,I20,I,Ins/Pos,Clearly B,2
+v1_p3,1,I20,I,Ins/Pos,Both equally natural,0
+v1_p5,1,I20,I,Ins/Pos,Somewhat B,1
+v1_p6,1,I20,I,Ins/Pos,Clearly B,2
+v1_p2,1,T47,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T47,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T47,T,Mtx/Emb,Somewhat A,1
+v1_p6,1,T47,T,Mtx/Emb,Clearly A,2
+v1_p2,1,S11,S,Ser/Mul,Both equally natural,0
+v1_p3,1,S11,S,Ser/Mul,Clearly A,2
+v1_p5,1,S11,S,Ser/Mul,Somewhat B,-1
+v1_p6,1,S11,S,Ser/Mul,Somewhat A,1
+v1_p2,1,T45,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T45,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T45,T,Mtx/Emb,Clearly A,2
+v1_p6,1,T45,T,Mtx/Emb,Somewhat A,1
+v1_p2,1,T5,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T5,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T5,T,Mtx/Emb,Clearly A,-2
+v1_p6,1,T5,T,Mtx/Emb,Somewhat A,-1
+v1_p2,1,I14,I,Ins/Pos,Clearly B,-2
+v1_p3,1,I14,I,Ins/Pos,Clearly A,2
+v1_p5,1,I14,I,Ins/Pos,Clearly B,-2
+v1_p6,1,I14,I,Ins/Pos,Both equally natural,0
+v1_p2,1,T8,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T8,T,Mtx/Emb,Both equally natural,0
+v1_p5,1,T8,T,Mtx/Emb,Somewhat A,1
+v1_p6,1,T8,T,Mtx/Emb,Somewhat A,1
+v1_p2,1,T21,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T21,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T21,T,Mtx/Emb,Clearly A,2
+v1_p6,1,T21,T,Mtx/Emb,Clearly A,2
+v1_p2,1,T14,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T14,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T14,T,Mtx/Emb,Somewhat A,1
+v1_p6,1,T14,T,Mtx/Emb,Somewhat A,1
+v1_p2,1,T43,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T43,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T43,T,Mtx/Emb,Clearly B,2
+v1_p6,1,T43,T,Mtx/Emb,Somewhat B,1
+v1_p2,1,I44,I,Ins/Pos,Clearly A,-2
+v1_p3,1,I44,I,Ins/Pos,Somewhat B,1
+v1_p5,1,I44,I,Ins/Pos,Clearly A,-2
+v1_p6,1,I44,I,Ins/Pos,Somewhat A,-1
+v1_p2,1,T37,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T37,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T37,T,Mtx/Emb,Somewhat B,1
+v1_p6,1,T37,T,Mtx/Emb,Somewhat B,1
+v1_p2,1,I23,I,Ins/Pos,Clearly B,2
+v1_p3,1,I23,I,Ins/Pos,Clearly A,-2
+v1_p5,1,I23,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I23,I,Ins/Pos,Somewhat A,-1
+v1_p2,1,I50,I,Ins/Pos,Clearly A,2
+v1_p3,1,I50,I,Ins/Pos,Clearly A,2
+v1_p5,1,I50,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I50,I,Ins/Pos,Somewhat B,-1
+v1_p2,1,T22,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T22,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T22,T,Mtx/Emb,Somewhat B,-1
+v1_p6,1,T22,T,Mtx/Emb,Somewhat A,1
+v1_p2,1,I10,I,Ins/Pos,Clearly B,2
+v1_p3,1,I10,I,Ins/Pos,Clearly B,2
+v1_p5,1,I10,I,Ins/Pos,Somewhat A,-1
+v1_p6,1,I10,I,Ins/Pos,Somewhat A,-1
+v1_p2,1,I32,I,Ins/Pos,Clearly B,2
+v1_p3,1,I32,I,Ins/Pos,Clearly B,2
+v1_p5,1,I32,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I32,I,Ins/Pos,Somewhat B,1
+v1_p2,1,I9,I,Ins/Pos,Clearly B,2
+v1_p3,1,I9,I,Ins/Pos,Clearly B,2
+v1_p5,1,I9,I,Ins/Pos,Somewhat A,-1
+v1_p6,1,I9,I,Ins/Pos,Somewhat B,1
+v1_p2,1,I33,I,Ins/Pos,Clearly B,2
+v1_p3,1,I33,I,Ins/Pos,Both equally natural,0
+v1_p5,1,I33,I,Ins/Pos,Somewhat A,-1
+v1_p6,1,I33,I,Ins/Pos,Somewhat B,1
+v1_p2,1,T34,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T34,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T34,T,Mtx/Emb,Clearly A,2
+v1_p6,1,T34,T,Mtx/Emb,Clearly A,2
+v1_p2,1,I16,I,Ins/Pos,Clearly A,2
+v1_p3,1,I16,I,Ins/Pos,Clearly A,2
+v1_p5,1,I16,I,Ins/Pos,Clearly B,-2
+v1_p6,1,I16,I,Ins/Pos,Somewhat B,-1
+v1_p2,1,T24,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T24,T,Mtx/Emb,Clearly A,-2
+v1_p5,1,T24,T,Mtx/Emb,Somewhat B,1
+v1_p6,1,T24,T,Mtx/Emb,Somewhat B,1
+v1_p2,1,S1,S,Ser/Mul,Clearly A,2
+v1_p3,1,S1,S,Ser/Mul,Clearly A,2
+v1_p5,1,S1,S,Ser/Mul,Somewhat A,1
+v1_p6,1,S1,S,Ser/Mul,Somewhat A,1
+v1_p2,1,T39,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T39,T,Mtx/Emb,Clearly B,-2
+v1_p5,1,T39,T,Mtx/Emb,Somewhat B,-1
+v1_p6,1,T39,T,Mtx/Emb,Clearly A,2
+v1_p2,1,T15,T,Mtx/Emb,Somewhat B,1
+v1_p3,1,T15,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T15,T,Mtx/Emb,Both equally natural,0
+v1_p6,1,T15,T,Mtx/Emb,Somewhat B,1
+v1_p2,1,T44,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T44,T,Mtx/Emb,Both equally natural,0
+v1_p5,1,T44,T,Mtx/Emb,Somewhat B,1
+v1_p6,1,T44,T,Mtx/Emb,Somewhat B,1
+v1_p2,1,T4,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T4,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T4,T,Mtx/Emb,Both equally natural,0
+v1_p6,1,T4,T,Mtx/Emb,Clearly A,2
+v1_p2,1,I37,I,Ins/Pos,Clearly B,2
+v1_p3,1,I37,I,Ins/Pos,Clearly B,2
+v1_p5,1,I37,I,Ins/Pos,Clearly B,2
+v1_p6,1,I37,I,Ins/Pos,Both equally natural,0
+v1_p2,1,T26,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T26,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T26,T,Mtx/Emb,Clearly B,2
+v1_p6,1,T26,T,Mtx/Emb,Somewhat B,1
+v1_p2,1,I27,I,Ins/Pos,Clearly A,2
+v1_p3,1,I27,I,Ins/Pos,Clearly A,2
+v1_p5,1,I27,I,Ins/Pos,Clearly B,-2
+v1_p6,1,I27,I,Ins/Pos,Clearly B,-2
+v1_p2,1,S15,S,Ser/Mul,Clearly B,2
+v1_p3,1,S15,S,Ser/Mul,Clearly B,2
+v1_p5,1,S15,S,Ser/Mul,Somewhat A,-1
+v1_p6,1,S15,S,Ser/Mul,Clearly B,2
+v1_p2,1,T7,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T7,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T7,T,Mtx/Emb,Clearly A,2
+v1_p6,1,T7,T,Mtx/Emb,Somewhat A,1
+v1_p2,1,T10,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T10,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T10,T,Mtx/Emb,Somewhat A,1
+v1_p6,1,T10,T,Mtx/Emb,Somewhat A,1
+v1_p2,1,T1,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T1,T,Mtx/Emb,Clearly B,-2
+v1_p5,1,T1,T,Mtx/Emb,Clearly B,-2
+v1_p6,1,T1,T,Mtx/Emb,Somewhat A,1
+v1_p2,1,I25,I,Ins/Pos,Clearly A,2
+v1_p3,1,I25,I,Ins/Pos,Clearly A,2
+v1_p5,1,I25,I,Ins/Pos,Somewhat B,-1
+v1_p6,1,I25,I,Ins/Pos,Somewhat A,1
+v1_p2,1,I1,I,Ins/Pos,Clearly B,-2
+v1_p3,1,I1,I,Ins/Pos,Clearly A,2
+v1_p5,1,I1,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I1,I,Ins/Pos,Somewhat B,-1
+v1_p2,1,S22,S,Ser/Mul,Clearly A,2
+v1_p3,1,S22,S,Ser/Mul,Clearly A,2
+v1_p5,1,S22,S,Ser/Mul,Somewhat A,1
+v1_p6,1,S22,S,Ser/Mul,Somewhat A,1
+v1_p2,1,S19,S,Ser/Mul,Clearly B,2
+v1_p3,1,S19,S,Ser/Mul,Clearly B,2
+v1_p5,1,S19,S,Ser/Mul,Somewhat B,1
+v1_p6,1,S19,S,Ser/Mul,Somewhat B,1
+v1_p2,1,I2,I,Ins/Pos,Clearly A,-2
+v1_p3,1,I2,I,Ins/Pos,Clearly A,-2
+v1_p5,1,I2,I,Ins/Pos,Clearly A,-2
+v1_p6,1,I2,I,Ins/Pos,Both equally natural,0
+v1_p2,1,I13,I,Ins/Pos,Clearly A,2
+v1_p3,1,I13,I,Ins/Pos,Clearly A,2
+v1_p5,1,I13,I,Ins/Pos,Somewhat B,-1
+v1_p6,1,I13,I,Ins/Pos,Clearly B,-2
+v1_p2,1,S27,S,Ser/Mul,Clearly A,-2
+v1_p3,1,S27,S,Ser/Mul,Both equally natural,0
+v1_p5,1,S27,S,Ser/Mul,Somewhat A,-1
+v1_p6,1,S27,S,Ser/Mul,Somewhat B,1
+v1_p2,1,T35,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T35,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T35,T,Mtx/Emb,Clearly B,2
+v1_p6,1,T35,T,Mtx/Emb,Somewhat B,1
+v1_p2,1,I4,I,Ins/Pos,Clearly B,-2
+v1_p3,1,I4,I,Ins/Pos,Clearly B,-2
+v1_p5,1,I4,I,Ins/Pos,Somewhat B,-1
+v1_p6,1,I4,I,Ins/Pos,Somewhat A,1
+v1_p2,1,S26,S,Ser/Mul,Clearly B,2
+v1_p3,1,S26,S,Ser/Mul,Clearly A,-2
+v1_p5,1,S26,S,Ser/Mul,Somewhat A,-1
+v1_p6,1,S26,S,Ser/Mul,Somewhat A,-1
+v1_p2,1,S9,S,Ser/Mul,Clearly A,2
+v1_p3,1,S9,S,Ser/Mul,Clearly A,2
+v1_p5,1,S9,S,Ser/Mul,Both equally natural,0
+v1_p6,1,S9,S,Ser/Mul,Somewhat A,1
+v1_p2,1,T46,T,Mtx/Emb,Clearly B,-2
+v1_p3,1,T46,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T46,T,Mtx/Emb,Somewhat A,1
+v1_p6,1,T46,T,Mtx/Emb,Somewhat A,1
+v1_p2,1,S18,S,Ser/Mul,Clearly B,2
+v1_p3,1,S18,S,Ser/Mul,Clearly A,-2
+v1_p5,1,S18,S,Ser/Mul,Somewhat B,1
+v1_p6,1,S18,S,Ser/Mul,Clearly A,-2
+v1_p2,1,S10,S,Ser/Mul,Clearly B,2
+v1_p3,1,S10,S,Ser/Mul,Clearly B,2
+v1_p5,1,S10,S,Ser/Mul,Somewhat B,1
+v1_p6,1,S10,S,Ser/Mul,Somewhat A,-1
+v1_p2,1,S5,S,Ser/Mul,Somewhat B,-1
+v1_p3,1,S5,S,Ser/Mul,Clearly A,2
+v1_p5,1,S5,S,Ser/Mul,Somewhat B,-1
+v1_p6,1,S5,S,Ser/Mul,Somewhat A,1
+v1_p2,1,I43,I,Ins/Pos,Clearly B,-2
+v1_p3,1,I43,I,Ins/Pos,Clearly B,-2
+v1_p5,1,I43,I,Ins/Pos,Clearly B,-2
+v1_p6,1,I43,I,Ins/Pos,Somewhat B,-1
+v1_p2,1,I30,I,Ins/Pos,Clearly B,-2
+v1_p3,1,I30,I,Ins/Pos,Clearly B,-2
+v1_p5,1,I30,I,Ins/Pos,Clearly B,-2
+v1_p6,1,I30,I,Ins/Pos,Somewhat A,1
+v1_p2,1,I42,I,Ins/Pos,Clearly B,2
+v1_p3,1,I42,I,Ins/Pos,Clearly B,2
+v1_p5,1,I42,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I42,I,Ins/Pos,Somewhat A,-1
+v1_p2,1,I28,I,Ins/Pos,Clearly A,2
+v1_p3,1,I28,I,Ins/Pos,Somewhat A,1
+v1_p5,1,I28,I,Ins/Pos,Somewhat A,1
+v1_p6,1,I28,I,Ins/Pos,Somewhat B,-1
+v1_p2,1,T12,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T12,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T12,T,Mtx/Emb,Somewhat A,1
+v1_p6,1,T12,T,Mtx/Emb,Somewhat A,1
+v1_p2,1,S3,S,Ser/Mul,Clearly A,2
+v1_p3,1,S3,S,Ser/Mul,Clearly A,2
+v1_p5,1,S3,S,Ser/Mul,Somewhat B,-1
+v1_p6,1,S3,S,Ser/Mul,Somewhat A,1
+v1_p2,1,T32,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T32,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T32,T,Mtx/Emb,Somewhat B,1
+v1_p6,1,T32,T,Mtx/Emb,Somewhat B,1
+v1_p2,1,T27,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T27,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T27,T,Mtx/Emb,Clearly A,2
+v1_p6,1,T27,T,Mtx/Emb,Clearly A,2
+v1_p2,1,I49,I,Ins/Pos,Clearly B,2
+v1_p3,1,I49,I,Ins/Pos,Clearly A,-2
+v1_p5,1,I49,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I49,I,Ins/Pos,Somewhat B,1
+v1_p2,1,T3,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T3,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T3,T,Mtx/Emb,Somewhat A,1
+v1_p6,1,T3,T,Mtx/Emb,Somewhat A,1
+v1_p2,1,S28,S,Ser/Mul,Clearly B,2
+v1_p3,1,S28,S,Ser/Mul,Clearly B,2
+v1_p5,1,S28,S,Ser/Mul,Somewhat B,1
+v1_p6,1,S28,S,Ser/Mul,Somewhat B,1
+v1_p2,1,I48,I,Ins/Pos,Clearly B,-2
+v1_p3,1,I48,I,Ins/Pos,Clearly A,2
+v1_p5,1,I48,I,Ins/Pos,Somewhat B,-1
+v1_p6,1,I48,I,Ins/Pos,Somewhat A,1
+v1_p2,1,I38,I,Ins/Pos,Somewhat B,1
+v1_p3,1,I38,I,Ins/Pos,Clearly B,2
+v1_p5,1,I38,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I38,I,Ins/Pos,Somewhat A,-1
+v1_p2,1,S16,S,Ser/Mul,Clearly A,2
+v1_p3,1,S16,S,Ser/Mul,Clearly A,2
+v1_p5,1,S16,S,Ser/Mul,Both equally natural,0
+v1_p6,1,S16,S,Ser/Mul,Clearly B,-2
+v1_p2,1,I31,I,Ins/Pos,Clearly A,2
+v1_p3,1,I31,I,Ins/Pos,Both equally natural,0
+v1_p5,1,I31,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I31,I,Ins/Pos,Somewhat B,-1
+v1_p2,1,I5,I,Ins/Pos,Clearly A,2
+v1_p3,1,I5,I,Ins/Pos,Clearly A,2
+v1_p5,1,I5,I,Ins/Pos,Somewhat B,-1
+v1_p6,1,I5,I,Ins/Pos,Somewhat A,1
+v1_p2,1,I29,I,Ins/Pos,Clearly A,-2
+v1_p3,1,I29,I,Ins/Pos,Clearly B,2
+v1_p5,1,I29,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I29,I,Ins/Pos,Somewhat B,1
+v1_p2,1,S30,S,Ser/Mul,Both equally natural,0
+v1_p3,1,S30,S,Ser/Mul,Clearly B,2
+v1_p5,1,S30,S,Ser/Mul,Both equally natural,0
+v1_p6,1,S30,S,Ser/Mul,Somewhat B,1
+v1_p2,1,S25,S,Ser/Mul,Clearly A,2
+v1_p3,1,S25,S,Ser/Mul,Clearly A,2
+v1_p5,1,S25,S,Ser/Mul,Somewhat A,1
+v1_p6,1,S25,S,Ser/Mul,Somewhat A,1
+v1_p2,1,S6,S,Ser/Mul,Clearly B,2
+v1_p3,1,S6,S,Ser/Mul,Clearly B,2
+v1_p5,1,S6,S,Ser/Mul,Both equally natural,0
+v1_p6,1,S6,S,Ser/Mul,Somewhat B,1
+v1_p2,1,T31,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T31,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T31,T,Mtx/Emb,Both equally natural,0
+v1_p6,1,T31,T,Mtx/Emb,Clearly A,2
+v1_p2,1,T41,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T41,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T41,T,Mtx/Emb,Both equally natural,0
+v1_p6,1,T41,T,Mtx/Emb,Somewhat B,1
+v1_p2,1,T29,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T29,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T29,T,Mtx/Emb,Somewhat A,-1
+v1_p6,1,T29,T,Mtx/Emb,Somewhat B,1
+v1_p2,1,I6,I,Ins/Pos,Somewhat A,1
+v1_p3,1,I6,I,Ins/Pos,Clearly A,2
+v1_p5,1,I6,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I6,I,Ins/Pos,Somewhat A,1
+v1_p2,1,I24,I,Ins/Pos,Clearly B,-2
+v1_p3,1,I24,I,Ins/Pos,Clearly A,2
+v1_p5,1,I24,I,Ins/Pos,Somewhat A,1
+v1_p6,1,I24,I,Ins/Pos,Both equally natural,0
+v1_p2,1,S4,S,Ser/Mul,Clearly B,2
+v1_p3,1,S4,S,Ser/Mul,Both equally natural,0
+v1_p5,1,S4,S,Ser/Mul,Somewhat A,-1
+v1_p6,1,S4,S,Ser/Mul,Somewhat B,1
+v1_p2,1,S13,S,Ser/Mul,Clearly B,2
+v1_p3,1,S13,S,Ser/Mul,Clearly B,2
+v1_p5,1,S13,S,Ser/Mul,Both equally natural,0
+v1_p6,1,S13,S,Ser/Mul,Somewhat B,1
+v1_p2,1,I18,I,Ins/Pos,Clearly B,2
+v1_p3,1,I18,I,Ins/Pos,Clearly B,2
+v1_p5,1,I18,I,Ins/Pos,Somewhat A,-1
+v1_p6,1,I18,I,Ins/Pos,Somewhat A,-1
+v1_p2,1,I19,I,Ins/Pos,Clearly B,2
+v1_p3,1,I19,I,Ins/Pos,Clearly B,2
+v1_p5,1,I19,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I19,I,Ins/Pos,Somewhat B,1
+v1_p2,1,T42,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T42,T,Mtx/Emb,Both equally natural,0
+v1_p5,1,T42,T,Mtx/Emb,Somewhat A,-1
+v1_p6,1,T42,T,Mtx/Emb,Somewhat B,1
+v1_p2,1,I11,I,Ins/Pos,Clearly B,-2
+v1_p3,1,I11,I,Ins/Pos,Clearly A,2
+v1_p5,1,I11,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I11,I,Ins/Pos,Both equally natural,0
+v1_p2,1,I21,I,Ins/Pos,Clearly A,-2
+v1_p3,1,I21,I,Ins/Pos,Both equally natural,0
+v1_p5,1,I21,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I21,I,Ins/Pos,Clearly B,2
+v1_p2,1,T13,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T13,T,Mtx/Emb,Clearly A,-2
+v1_p5,1,T13,T,Mtx/Emb,Both equally natural,0
+v1_p6,1,T13,T,Mtx/Emb,Clearly B,2
+v1_p2,1,I8,I,Ins/Pos,Clearly A,-2
+v1_p3,1,I8,I,Ins/Pos,Clearly A,-2
+v1_p5,1,I8,I,Ins/Pos,Somewhat A,-1
+v1_p6,1,I8,I,Ins/Pos,Somewhat A,-1
+v1_p2,1,I7,I,Ins/Pos,Clearly B,2
+v1_p3,1,I7,I,Ins/Pos,Both equally natural,0
+v1_p5,1,I7,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I7,I,Ins/Pos,Somewhat B,1
+v1_p2,1,T11,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T11,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T11,T,Mtx/Emb,Somewhat B,1
+v1_p6,1,T11,T,Mtx/Emb,Clearly B,2
+v1_p2,1,I45,I,Ins/Pos,Clearly A,2
+v1_p3,1,I45,I,Ins/Pos,Clearly A,2
+v1_p5,1,I45,I,Ins/Pos,Somewhat A,1
+v1_p6,1,I45,I,Ins/Pos,Somewhat B,-1
+v1_p2,1,S8,S,Ser/Mul,Clearly A,2
+v1_p3,1,S8,S,Ser/Mul,Clearly A,2
+v1_p5,1,S8,S,Ser/Mul,Somewhat A,1
+v1_p6,1,S8,S,Ser/Mul,Both equally natural,0
+v1_p2,1,S12,S,Ser/Mul,Clearly A,2
+v1_p3,1,S12,S,Ser/Mul,Clearly B,-2
+v1_p5,1,S12,S,Ser/Mul,Somewhat B,-1
+v1_p6,1,S12,S,Ser/Mul,Clearly A,2
+v1_p2,1,T28,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T28,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T28,T,Mtx/Emb,Both equally natural,0
+v1_p6,1,T28,T,Mtx/Emb,Clearly B,2
+v1_p2,1,I17,I,Ins/Pos,Clearly A,2
+v1_p3,1,I17,I,Ins/Pos,Clearly A,2
+v1_p5,1,I17,I,Ins/Pos,Somewhat B,-1
+v1_p6,1,I17,I,Ins/Pos,Somewhat B,-1
+v1_p2,1,I12,I,Ins/Pos,Clearly A,2
+v1_p3,1,I12,I,Ins/Pos,Clearly B,-2
+v1_p5,1,I12,I,Ins/Pos,Somewhat B,-1
+v1_p6,1,I12,I,Ins/Pos,Somewhat B,-1
+v1_p2,1,T40,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T40,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T40,T,Mtx/Emb,Both equally natural,0
+v1_p6,1,T40,T,Mtx/Emb,Clearly A,2
+v1_p2,1,I41,I,Ins/Pos,Clearly B,-2
+v1_p3,1,I41,I,Ins/Pos,Clearly A,2
+v1_p5,1,I41,I,Ins/Pos,Somewhat B,-1
+v1_p6,1,I41,I,Ins/Pos,Somewhat B,-1
+v1_p2,1,S7,S,Ser/Mul,Clearly B,2
+v1_p3,1,S7,S,Ser/Mul,Clearly B,2
+v1_p5,1,S7,S,Ser/Mul,Somewhat B,1
+v1_p6,1,S7,S,Ser/Mul,Clearly B,2
+v1_p2,1,T9,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T9,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T9,T,Mtx/Emb,Somewhat B,1
+v1_p6,1,T9,T,Mtx/Emb,Clearly B,2
+v1_p2,1,T50,T,Mtx/Emb,Clearly A,2
+v1_p3,1,T50,T,Mtx/Emb,Clearly A,2
+v1_p5,1,T50,T,Mtx/Emb,Somewhat A,1
+v1_p6,1,T50,T,Mtx/Emb,Somewhat B,-1
+v1_p2,1,I34,I,Ins/Pos,Clearly B,2
+v1_p3,1,I34,I,Ins/Pos,Clearly B,2
+v1_p5,1,I34,I,Ins/Pos,Both equally natural,0
+v1_p6,1,I34,I,Ins/Pos,Somewhat A,-1
+v1_p2,1,T19,T,Mtx/Emb,Clearly B,2
+v1_p3,1,T19,T,Mtx/Emb,Clearly B,2
+v1_p5,1,T19,T,Mtx/Emb,Somewhat B,1
+v1_p6,1,T19,T,Mtx/Emb,Somewhat B,1
+v2_p1,2,T33,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T33,T,Mtx/Emb,Somewhat A,1
+v2_p3,2,T33,T,Mtx/Emb,Both equally natural,0
+v2_p4,2,T33,T,Mtx/Emb,Clearly B,-2
+v2_p5,2,T33,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T33,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T33,T,Mtx/Emb,Clearly A,2
+v2_p9,2,T33,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T33,T,Mtx/Emb,Clearly A,2
+v2_p1,2,I26,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I26,I,Ins/Pos,Somewhat A,1
+v2_p3,2,I26,I,Ins/Pos,Clearly A,2
+v2_p4,2,I26,I,Ins/Pos,Clearly A,2
+v2_p5,2,I26,I,Ins/Pos,Clearly A,2
+v2_p6,2,I26,I,Ins/Pos,Clearly A,2
+v2_p7,2,I26,I,Ins/Pos,Clearly A,2
+v2_p9,2,I26,I,Ins/Pos,Both equally natural,0
+v2_p10,2,I26,I,Ins/Pos,Clearly A,2
+v2_p1,2,S5,S,Ser/Mul,Clearly B,2
+v2_p2,2,S5,S,Ser/Mul,Somewhat A,-1
+v2_p3,2,S5,S,Ser/Mul,Clearly B,2
+v2_p4,2,S5,S,Ser/Mul,Clearly B,2
+v2_p5,2,S5,S,Ser/Mul,Clearly B,2
+v2_p6,2,S5,S,Ser/Mul,Clearly B,2
+v2_p7,2,S5,S,Ser/Mul,Both equally natural,0
+v2_p9,2,S5,S,Ser/Mul,Somewhat B,1
+v2_p10,2,S5,S,Ser/Mul,Clearly B,2
+v2_p1,2,T29,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T29,T,Mtx/Emb,Clearly B,-2
+v2_p3,2,T29,T,Mtx/Emb,Clearly B,-2
+v2_p4,2,T29,T,Mtx/Emb,Somewhat A,1
+v2_p5,2,T29,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T29,T,Mtx/Emb,Somewhat A,1
+v2_p7,2,T29,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T29,T,Mtx/Emb,Clearly B,-2
+v2_p10,2,T29,T,Mtx/Emb,Clearly A,2
+v2_p1,2,T31,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T31,T,Mtx/Emb,Somewhat B,1
+v2_p3,2,T31,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T31,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T31,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T31,T,Mtx/Emb,Clearly B,2
+v2_p7,2,T31,T,Mtx/Emb,Somewhat B,1
+v2_p9,2,T31,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T31,T,Mtx/Emb,Clearly B,2
+v2_p1,2,T42,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T42,T,Mtx/Emb,Somewhat A,1
+v2_p3,2,T42,T,Mtx/Emb,Clearly B,-2
+v2_p4,2,T42,T,Mtx/Emb,Both equally natural,0
+v2_p5,2,T42,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T42,T,Mtx/Emb,Clearly B,-2
+v2_p7,2,T42,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T42,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T42,T,Mtx/Emb,Clearly A,2
+v2_p1,2,S29,S,Ser/Mul,Clearly B,2
+v2_p2,2,S29,S,Ser/Mul,Both equally natural,0
+v2_p3,2,S29,S,Ser/Mul,Both equally natural,0
+v2_p4,2,S29,S,Ser/Mul,Clearly B,2
+v2_p5,2,S29,S,Ser/Mul,Clearly B,2
+v2_p6,2,S29,S,Ser/Mul,Clearly B,2
+v2_p7,2,S29,S,Ser/Mul,Somewhat A,-1
+v2_p9,2,S29,S,Ser/Mul,Somewhat B,1
+v2_p10,2,S29,S,Ser/Mul,Clearly B,2
+v2_p1,2,T5,T,Mtx/Emb,Clearly B,-2
+v2_p2,2,T5,T,Mtx/Emb,Somewhat B,-1
+v2_p3,2,T5,T,Mtx/Emb,Both equally natural,0
+v2_p4,2,T5,T,Mtx/Emb,Clearly A,2
+v2_p5,2,T5,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T5,T,Mtx/Emb,Clearly B,-2
+v2_p7,2,T5,T,Mtx/Emb,Somewhat B,-1
+v2_p9,2,T5,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T5,T,Mtx/Emb,Clearly B,-2
+v2_p1,2,S20,S,Ser/Mul,Clearly B,2
+v2_p2,2,S20,S,Ser/Mul,Somewhat B,1
+v2_p3,2,S20,S,Ser/Mul,Both equally natural,0
+v2_p4,2,S20,S,Ser/Mul,Clearly B,2
+v2_p5,2,S20,S,Ser/Mul,Clearly B,2
+v2_p6,2,S20,S,Ser/Mul,Clearly A,-2
+v2_p7,2,S20,S,Ser/Mul,Somewhat B,1
+v2_p9,2,S20,S,Ser/Mul,Somewhat B,1
+v2_p10,2,S20,S,Ser/Mul,Clearly B,2
+v2_p1,2,T1,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T1,T,Mtx/Emb,Somewhat A,-1
+v2_p3,2,T1,T,Mtx/Emb,Somewhat B,1
+v2_p4,2,T1,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T1,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T1,T,Mtx/Emb,Clearly A,-2
+v2_p7,2,T1,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T1,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T1,T,Mtx/Emb,Clearly B,2
+v2_p1,2,T24,T,Mtx/Emb,Clearly B,-2
+v2_p2,2,T24,T,Mtx/Emb,Somewhat A,1
+v2_p3,2,T24,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T24,T,Mtx/Emb,Clearly B,-2
+v2_p5,2,T24,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T24,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T24,T,Mtx/Emb,Somewhat B,-1
+v2_p9,2,T24,T,Mtx/Emb,Somewhat B,-1
+v2_p10,2,T24,T,Mtx/Emb,Clearly B,-2
+v2_p1,2,S14,S,Ser/Mul,Clearly B,2
+v2_p2,2,S14,S,Ser/Mul,Somewhat B,1
+v2_p3,2,S14,S,Ser/Mul,Both equally natural,0
+v2_p4,2,S14,S,Ser/Mul,Both equally natural,0
+v2_p5,2,S14,S,Ser/Mul,Clearly B,2
+v2_p6,2,S14,S,Ser/Mul,Clearly B,2
+v2_p7,2,S14,S,Ser/Mul,Somewhat B,1
+v2_p9,2,S14,S,Ser/Mul,Somewhat B,1
+v2_p10,2,S14,S,Ser/Mul,Clearly A,-2
+v2_p1,2,S15,S,Ser/Mul,Clearly A,2
+v2_p2,2,S15,S,Ser/Mul,Somewhat A,1
+v2_p3,2,S15,S,Ser/Mul,Clearly A,2
+v2_p4,2,S15,S,Ser/Mul,Clearly A,2
+v2_p5,2,S15,S,Ser/Mul,Both equally natural,0
+v2_p6,2,S15,S,Ser/Mul,Somewhat A,1
+v2_p7,2,S15,S,Ser/Mul,Clearly A,2
+v2_p9,2,S15,S,Ser/Mul,Somewhat A,1
+v2_p10,2,S15,S,Ser/Mul,Clearly A,2
+v2_p1,2,T32,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T32,T,Mtx/Emb,Somewhat B,-1
+v2_p3,2,T32,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T32,T,Mtx/Emb,Somewhat A,1
+v2_p5,2,T32,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T32,T,Mtx/Emb,Somewhat A,1
+v2_p7,2,T32,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T32,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T32,T,Mtx/Emb,Somewhat B,-1
+v2_p1,2,S24,S,Ser/Mul,Clearly A,2
+v2_p2,2,S24,S,Ser/Mul,Somewhat A,1
+v2_p3,2,S24,S,Ser/Mul,Clearly A,2
+v2_p4,2,S24,S,Ser/Mul,Both equally natural,0
+v2_p5,2,S24,S,Ser/Mul,Clearly A,2
+v2_p6,2,S24,S,Ser/Mul,Clearly A,2
+v2_p7,2,S24,S,Ser/Mul,Somewhat A,1
+v2_p9,2,S24,S,Ser/Mul,Somewhat A,1
+v2_p10,2,S24,S,Ser/Mul,Clearly A,2
+v2_p1,2,I29,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I29,I,Ins/Pos,Somewhat B,-1
+v2_p3,2,I29,I,Ins/Pos,Clearly B,-2
+v2_p4,2,I29,I,Ins/Pos,Clearly A,2
+v2_p5,2,I29,I,Ins/Pos,Clearly A,2
+v2_p6,2,I29,I,Ins/Pos,Somewhat A,1
+v2_p7,2,I29,I,Ins/Pos,Somewhat B,-1
+v2_p9,2,I29,I,Ins/Pos,Both equally natural,0
+v2_p10,2,I29,I,Ins/Pos,Clearly A,2
+v2_p1,2,T47,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T47,T,Mtx/Emb,Clearly B,2
+v2_p3,2,T47,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T47,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T47,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T47,T,Mtx/Emb,Somewhat B,1
+v2_p7,2,T47,T,Mtx/Emb,Clearly B,2
+v2_p9,2,T47,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T47,T,Mtx/Emb,Clearly B,2
+v2_p1,2,T27,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T27,T,Mtx/Emb,Clearly B,2
+v2_p3,2,T27,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T27,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T27,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T27,T,Mtx/Emb,Clearly B,2
+v2_p7,2,T27,T,Mtx/Emb,Somewhat B,1
+v2_p9,2,T27,T,Mtx/Emb,Clearly B,2
+v2_p10,2,T27,T,Mtx/Emb,Clearly B,2
+v2_p1,2,I50,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I50,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I50,I,Ins/Pos,Clearly A,-2
+v2_p4,2,I50,I,Ins/Pos,Clearly B,2
+v2_p5,2,I50,I,Ins/Pos,Clearly B,2
+v2_p6,2,I50,I,Ins/Pos,Clearly B,2
+v2_p7,2,I50,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I50,I,Ins/Pos,Somewhat B,1
+v2_p10,2,I50,I,Ins/Pos,Clearly B,2
+v2_p1,2,I31,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I31,I,Ins/Pos,Somewhat A,-1
+v2_p3,2,I31,I,Ins/Pos,Both equally natural,0
+v2_p4,2,I31,I,Ins/Pos,Somewhat B,1
+v2_p5,2,I31,I,Ins/Pos,Clearly B,2
+v2_p6,2,I31,I,Ins/Pos,Clearly B,2
+v2_p7,2,I31,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I31,I,Ins/Pos,Somewhat A,-1
+v2_p10,2,I31,I,Ins/Pos,Clearly B,2
+v2_p1,2,T16,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T16,T,Mtx/Emb,Somewhat A,1
+v2_p3,2,T16,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T16,T,Mtx/Emb,Clearly A,2
+v2_p5,2,T16,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T16,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T16,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T16,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T16,T,Mtx/Emb,Clearly A,2
+v2_p1,2,I35,I,Ins/Pos,Clearly B,-2
+v2_p2,2,I35,I,Ins/Pos,Somewhat B,-1
+v2_p3,2,I35,I,Ins/Pos,Somewhat B,-1
+v2_p4,2,I35,I,Ins/Pos,Clearly B,-2
+v2_p5,2,I35,I,Ins/Pos,Clearly A,2
+v2_p6,2,I35,I,Ins/Pos,Clearly B,-2
+v2_p7,2,I35,I,Ins/Pos,Somewhat A,1
+v2_p9,2,I35,I,Ins/Pos,Somewhat A,1
+v2_p10,2,I35,I,Ins/Pos,Both equally natural,0
+v2_p1,2,S16,S,Ser/Mul,Clearly B,2
+v2_p2,2,S16,S,Ser/Mul,Somewhat B,1
+v2_p3,2,S16,S,Ser/Mul,Clearly B,2
+v2_p4,2,S16,S,Ser/Mul,Both equally natural,0
+v2_p5,2,S16,S,Ser/Mul,Clearly B,2
+v2_p6,2,S16,S,Ser/Mul,Somewhat B,1
+v2_p7,2,S16,S,Ser/Mul,Both equally natural,0
+v2_p9,2,S16,S,Ser/Mul,Somewhat A,-1
+v2_p10,2,S16,S,Ser/Mul,Clearly B,2
+v2_p1,2,I34,I,Ins/Pos,Clearly B,-2
+v2_p2,2,I34,I,Ins/Pos,Somewhat A,1
+v2_p3,2,I34,I,Ins/Pos,Clearly B,-2
+v2_p4,2,I34,I,Ins/Pos,Clearly A,2
+v2_p5,2,I34,I,Ins/Pos,Clearly A,2
+v2_p6,2,I34,I,Ins/Pos,Clearly A,2
+v2_p7,2,I34,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I34,I,Ins/Pos,Somewhat B,-1
+v2_p10,2,I34,I,Ins/Pos,Both equally natural,0
+v2_p1,2,T48,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T48,T,Mtx/Emb,Somewhat A,1
+v2_p3,2,T48,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T48,T,Mtx/Emb,Both equally natural,0
+v2_p5,2,T48,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T48,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T48,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T48,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T48,T,Mtx/Emb,Clearly A,2
+v2_p1,2,S23,S,Ser/Mul,Clearly A,2
+v2_p2,2,S23,S,Ser/Mul,Somewhat A,1
+v2_p3,2,S23,S,Ser/Mul,Clearly A,2
+v2_p4,2,S23,S,Ser/Mul,Clearly A,2
+v2_p5,2,S23,S,Ser/Mul,Clearly A,2
+v2_p6,2,S23,S,Ser/Mul,Clearly A,2
+v2_p7,2,S23,S,Ser/Mul,Both equally natural,0
+v2_p9,2,S23,S,Ser/Mul,Somewhat A,1
+v2_p10,2,S23,S,Ser/Mul,Clearly A,2
+v2_p1,2,I3,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I3,I,Ins/Pos,Clearly A,2
+v2_p3,2,I3,I,Ins/Pos,Clearly B,-2
+v2_p4,2,I3,I,Ins/Pos,Both equally natural,0
+v2_p5,2,I3,I,Ins/Pos,Clearly A,2
+v2_p6,2,I3,I,Ins/Pos,Somewhat B,-1
+v2_p7,2,I3,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I3,I,Ins/Pos,Clearly A,2
+v2_p10,2,I3,I,Ins/Pos,Clearly A,2
+v2_p1,2,S8,S,Ser/Mul,Clearly B,2
+v2_p2,2,S8,S,Ser/Mul,Clearly B,2
+v2_p3,2,S8,S,Ser/Mul,Clearly A,-2
+v2_p4,2,S8,S,Ser/Mul,Both equally natural,0
+v2_p5,2,S8,S,Ser/Mul,Clearly A,-2
+v2_p6,2,S8,S,Ser/Mul,Clearly B,2
+v2_p7,2,S8,S,Ser/Mul,Somewhat B,1
+v2_p9,2,S8,S,Ser/Mul,Somewhat B,1
+v2_p10,2,S8,S,Ser/Mul,Clearly B,2
+v2_p1,2,T25,T,Mtx/Emb,Clearly A,-2
+v2_p2,2,T25,T,Mtx/Emb,Somewhat B,1
+v2_p3,2,T25,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T25,T,Mtx/Emb,Both equally natural,0
+v2_p5,2,T25,T,Mtx/Emb,Clearly A,-2
+v2_p6,2,T25,T,Mtx/Emb,Clearly A,-2
+v2_p7,2,T25,T,Mtx/Emb,Somewhat A,-1
+v2_p9,2,T25,T,Mtx/Emb,Somewhat A,-1
+v2_p10,2,T25,T,Mtx/Emb,Clearly B,2
+v2_p1,2,T2,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T2,T,Mtx/Emb,Somewhat B,1
+v2_p3,2,T2,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T2,T,Mtx/Emb,Both equally natural,0
+v2_p5,2,T2,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T2,T,Mtx/Emb,Clearly B,2
+v2_p7,2,T2,T,Mtx/Emb,Somewhat B,1
+v2_p9,2,T2,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T2,T,Mtx/Emb,Somewhat B,1
+v2_p1,2,T39,T,Mtx/Emb,Clearly A,-2
+v2_p2,2,T39,T,Mtx/Emb,Somewhat A,-1
+v2_p3,2,T39,T,Mtx/Emb,Both equally natural,0
+v2_p4,2,T39,T,Mtx/Emb,Somewhat B,1
+v2_p5,2,T39,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T39,T,Mtx/Emb,Somewhat A,-1
+v2_p7,2,T39,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T39,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T39,T,Mtx/Emb,Somewhat B,1
+v2_p1,2,I43,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I43,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I43,I,Ins/Pos,Clearly B,2
+v2_p4,2,I43,I,Ins/Pos,Clearly A,-2
+v2_p5,2,I43,I,Ins/Pos,Clearly B,2
+v2_p6,2,I43,I,Ins/Pos,Clearly A,-2
+v2_p7,2,I43,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I43,I,Ins/Pos,Somewhat A,-1
+v2_p10,2,I43,I,Ins/Pos,Both equally natural,0
+v2_p1,2,S18,S,Ser/Mul,Clearly A,2
+v2_p2,2,S18,S,Ser/Mul,Somewhat B,-1
+v2_p3,2,S18,S,Ser/Mul,Clearly B,-2
+v2_p4,2,S18,S,Ser/Mul,Clearly B,-2
+v2_p5,2,S18,S,Ser/Mul,Clearly B,-2
+v2_p6,2,S18,S,Ser/Mul,Somewhat A,1
+v2_p7,2,S18,S,Ser/Mul,Somewhat B,-1
+v2_p9,2,S18,S,Ser/Mul,Somewhat A,1
+v2_p10,2,S18,S,Ser/Mul,Clearly A,2
+v2_p1,2,S21,S,Ser/Mul,Clearly A,2
+v2_p2,2,S21,S,Ser/Mul,Clearly A,2
+v2_p3,2,S21,S,Ser/Mul,Clearly A,2
+v2_p4,2,S21,S,Ser/Mul,Both equally natural,0
+v2_p5,2,S21,S,Ser/Mul,Clearly A,2
+v2_p6,2,S21,S,Ser/Mul,Clearly A,2
+v2_p7,2,S21,S,Ser/Mul,Somewhat A,1
+v2_p9,2,S21,S,Ser/Mul,Somewhat A,1
+v2_p10,2,S21,S,Ser/Mul,Clearly A,2
+v2_p1,2,T50,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T50,T,Mtx/Emb,Somewhat B,1
+v2_p3,2,T50,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T50,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T50,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T50,T,Mtx/Emb,Clearly A,-2
+v2_p7,2,T50,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T50,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T50,T,Mtx/Emb,Clearly B,2
+v2_p1,2,S26,S,Ser/Mul,Clearly A,2
+v2_p2,2,S26,S,Ser/Mul,Both equally natural,0
+v2_p3,2,S26,S,Ser/Mul,Clearly B,-2
+v2_p4,2,S26,S,Ser/Mul,Both equally natural,0
+v2_p5,2,S26,S,Ser/Mul,Clearly B,-2
+v2_p6,2,S26,S,Ser/Mul,Clearly A,2
+v2_p7,2,S26,S,Ser/Mul,Both equally natural,0
+v2_p9,2,S26,S,Ser/Mul,Somewhat B,-1
+v2_p10,2,S26,S,Ser/Mul,Clearly B,-2
+v2_p1,2,I17,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I17,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I17,I,Ins/Pos,Clearly A,-2
+v2_p4,2,I17,I,Ins/Pos,Clearly B,2
+v2_p5,2,I17,I,Ins/Pos,Both equally natural,0
+v2_p6,2,I17,I,Ins/Pos,Clearly B,2
+v2_p7,2,I17,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I17,I,Ins/Pos,Somewhat B,1
+v2_p10,2,I17,I,Ins/Pos,Both equally natural,0
+v2_p1,2,T10,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T10,T,Mtx/Emb,Somewhat B,1
+v2_p3,2,T10,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T10,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T10,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T10,T,Mtx/Emb,Clearly B,2
+v2_p7,2,T10,T,Mtx/Emb,Clearly B,2
+v2_p9,2,T10,T,Mtx/Emb,Somewhat A,-1
+v2_p10,2,T10,T,Mtx/Emb,Clearly B,2
+v2_p1,2,T17,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T17,T,Mtx/Emb,Somewhat B,-1
+v2_p3,2,T17,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T17,T,Mtx/Emb,Both equally natural,0
+v2_p5,2,T17,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T17,T,Mtx/Emb,Clearly B,-2
+v2_p7,2,T17,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T17,T,Mtx/Emb,Somewhat B,-1
+v2_p10,2,T17,T,Mtx/Emb,Somewhat A,1
+v2_p1,2,T49,T,Mtx/Emb,Clearly B,-2
+v2_p2,2,T49,T,Mtx/Emb,Clearly A,2
+v2_p3,2,T49,T,Mtx/Emb,Clearly B,-2
+v2_p4,2,T49,T,Mtx/Emb,Both equally natural,0
+v2_p5,2,T49,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T49,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T49,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T49,T,Mtx/Emb,Somewhat B,-1
+v2_p10,2,T49,T,Mtx/Emb,Clearly A,2
+v2_p1,2,I27,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I27,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I27,I,Ins/Pos,Both equally natural,0
+v2_p4,2,I27,I,Ins/Pos,Clearly A,-2
+v2_p5,2,I27,I,Ins/Pos,Both equally natural,0
+v2_p6,2,I27,I,Ins/Pos,Clearly B,2
+v2_p7,2,I27,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I27,I,Ins/Pos,Somewhat B,1
+v2_p10,2,I27,I,Ins/Pos,Clearly B,2
+v2_p1,2,I5,I,Ins/Pos,Clearly A,-2
+v2_p2,2,I5,I,Ins/Pos,Somewhat A,-1
+v2_p3,2,I5,I,Ins/Pos,Clearly B,2
+v2_p4,2,I5,I,Ins/Pos,Clearly B,2
+v2_p5,2,I5,I,Ins/Pos,Clearly B,2
+v2_p6,2,I5,I,Ins/Pos,Clearly B,2
+v2_p7,2,I5,I,Ins/Pos,Somewhat A,-1
+v2_p9,2,I5,I,Ins/Pos,Somewhat B,1
+v2_p10,2,I5,I,Ins/Pos,Somewhat B,1
+v2_p1,2,T15,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T15,T,Mtx/Emb,Somewhat B,-1
+v2_p3,2,T15,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T15,T,Mtx/Emb,Both equally natural,0
+v2_p5,2,T15,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T15,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T15,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T15,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T15,T,Mtx/Emb,Clearly A,2
+v2_p1,2,I16,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I16,I,Ins/Pos,Somewhat B,1
+v2_p3,2,I16,I,Ins/Pos,Clearly B,2
+v2_p4,2,I16,I,Ins/Pos,Clearly B,2
+v2_p5,2,I16,I,Ins/Pos,Clearly B,2
+v2_p6,2,I16,I,Ins/Pos,Clearly B,2
+v2_p7,2,I16,I,Ins/Pos,Somewhat B,1
+v2_p9,2,I16,I,Ins/Pos,Somewhat B,1
+v2_p10,2,I16,I,Ins/Pos,Both equally natural,0
+v2_p1,2,T28,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T28,T,Mtx/Emb,Somewhat A,1
+v2_p3,2,T28,T,Mtx/Emb,Somewhat A,1
+v2_p4,2,T28,T,Mtx/Emb,Clearly B,-2
+v2_p5,2,T28,T,Mtx/Emb,Both equally natural,0
+v2_p6,2,T28,T,Mtx/Emb,Somewhat A,1
+v2_p7,2,T28,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T28,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T28,T,Mtx/Emb,Clearly A,2
+v2_p1,2,T13,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T13,T,Mtx/Emb,Somewhat B,-1
+v2_p3,2,T13,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T13,T,Mtx/Emb,Clearly A,2
+v2_p5,2,T13,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T13,T,Mtx/Emb,Clearly B,-2
+v2_p7,2,T13,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T13,T,Mtx/Emb,Somewhat B,-1
+v2_p10,2,T13,T,Mtx/Emb,Clearly A,2
+v2_p1,2,T41,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T41,T,Mtx/Emb,Both equally natural,0
+v2_p3,2,T41,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T41,T,Mtx/Emb,Clearly B,-2
+v2_p5,2,T41,T,Mtx/Emb,Both equally natural,0
+v2_p6,2,T41,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T41,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T41,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T41,T,Mtx/Emb,Clearly A,2
+v2_p1,2,I28,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I28,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I28,I,Ins/Pos,Both equally natural,0
+v2_p4,2,I28,I,Ins/Pos,Both equally natural,0
+v2_p5,2,I28,I,Ins/Pos,Clearly B,2
+v2_p6,2,I28,I,Ins/Pos,Clearly B,2
+v2_p7,2,I28,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I28,I,Ins/Pos,Somewhat B,1
+v2_p10,2,I28,I,Ins/Pos,Clearly B,2
+v2_p1,2,I46,I,Ins/Pos,Clearly B,-2
+v2_p2,2,I46,I,Ins/Pos,Clearly B,-2
+v2_p3,2,I46,I,Ins/Pos,Clearly B,-2
+v2_p4,2,I46,I,Ins/Pos,Clearly B,-2
+v2_p5,2,I46,I,Ins/Pos,Clearly B,-2
+v2_p6,2,I46,I,Ins/Pos,Somewhat B,-1
+v2_p7,2,I46,I,Ins/Pos,Somewhat B,-1
+v2_p9,2,I46,I,Ins/Pos,Somewhat B,-1
+v2_p10,2,I46,I,Ins/Pos,Both equally natural,0
+v2_p1,2,T19,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T19,T,Mtx/Emb,Somewhat A,1
+v2_p3,2,T19,T,Mtx/Emb,Clearly B,-2
+v2_p4,2,T19,T,Mtx/Emb,Clearly A,2
+v2_p5,2,T19,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T19,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T19,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T19,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T19,T,Mtx/Emb,Clearly A,2
+v2_p1,2,I8,I,Ins/Pos,Clearly B,-2
+v2_p2,2,I8,I,Ins/Pos,Clearly B,-2
+v2_p3,2,I8,I,Ins/Pos,Both equally natural,0
+v2_p4,2,I8,I,Ins/Pos,Somewhat B,-1
+v2_p5,2,I8,I,Ins/Pos,Clearly B,-2
+v2_p6,2,I8,I,Ins/Pos,Clearly B,-2
+v2_p7,2,I8,I,Ins/Pos,Somewhat B,-1
+v2_p9,2,I8,I,Ins/Pos,Somewhat B,-1
+v2_p10,2,I8,I,Ins/Pos,Both equally natural,0
+v2_p1,2,T45,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T45,T,Mtx/Emb,Somewhat B,1
+v2_p3,2,T45,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T45,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T45,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T45,T,Mtx/Emb,Clearly B,2
+v2_p7,2,T45,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T45,T,Mtx/Emb,Somewhat A,-1
+v2_p10,2,T45,T,Mtx/Emb,Clearly B,2
+v2_p1,2,S10,S,Ser/Mul,Clearly A,2
+v2_p2,2,S10,S,Ser/Mul,Both equally natural,0
+v2_p3,2,S10,S,Ser/Mul,Clearly B,-2
+v2_p4,2,S10,S,Ser/Mul,Clearly A,2
+v2_p5,2,S10,S,Ser/Mul,Clearly B,-2
+v2_p6,2,S10,S,Ser/Mul,Somewhat B,-1
+v2_p7,2,S10,S,Ser/Mul,Somewhat A,1
+v2_p9,2,S10,S,Ser/Mul,Somewhat B,-1
+v2_p10,2,S10,S,Ser/Mul,Clearly A,2
+v2_p1,2,T44,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T44,T,Mtx/Emb,Both equally natural,0
+v2_p3,2,T44,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T44,T,Mtx/Emb,Both equally natural,0
+v2_p5,2,T44,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T44,T,Mtx/Emb,Somewhat A,1
+v2_p7,2,T44,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T44,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T44,T,Mtx/Emb,Clearly A,2
+v2_p1,2,I14,I,Ins/Pos,Somewhat A,-1
+v2_p2,2,I14,I,Ins/Pos,Somewhat A,-1
+v2_p3,2,I14,I,Ins/Pos,Clearly B,2
+v2_p4,2,I14,I,Ins/Pos,Both equally natural,0
+v2_p5,2,I14,I,Ins/Pos,Clearly A,-2
+v2_p6,2,I14,I,Ins/Pos,Clearly B,2
+v2_p7,2,I14,I,Ins/Pos,Somewhat A,-1
+v2_p9,2,I14,I,Ins/Pos,Somewhat A,-1
+v2_p10,2,I14,I,Ins/Pos,Both equally natural,0
+v2_p1,2,I45,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I45,I,Ins/Pos,Somewhat B,1
+v2_p3,2,I45,I,Ins/Pos,Both equally natural,0
+v2_p4,2,I45,I,Ins/Pos,Clearly B,2
+v2_p5,2,I45,I,Ins/Pos,Clearly B,2
+v2_p6,2,I45,I,Ins/Pos,Clearly B,2
+v2_p7,2,I45,I,Ins/Pos,Somewhat B,1
+v2_p9,2,I45,I,Ins/Pos,Somewhat B,1
+v2_p10,2,I45,I,Ins/Pos,Both equally natural,0
+v2_p1,2,T8,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T8,T,Mtx/Emb,Somewhat A,-1
+v2_p3,2,T8,T,Mtx/Emb,Both equally natural,0
+v2_p4,2,T8,T,Mtx/Emb,Both equally natural,0
+v2_p5,2,T8,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T8,T,Mtx/Emb,Somewhat B,1
+v2_p7,2,T8,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T8,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T8,T,Mtx/Emb,Clearly B,2
+v2_p1,2,I42,I,Ins/Pos,Clearly B,-2
+v2_p2,2,I42,I,Ins/Pos,Somewhat A,1
+v2_p3,2,I42,I,Ins/Pos,Somewhat B,-1
+v2_p4,2,I42,I,Ins/Pos,Both equally natural,0
+v2_p5,2,I42,I,Ins/Pos,Clearly A,2
+v2_p6,2,I42,I,Ins/Pos,Clearly A,2
+v2_p7,2,I42,I,Ins/Pos,Somewhat A,1
+v2_p9,2,I42,I,Ins/Pos,Somewhat A,1
+v2_p10,2,I42,I,Ins/Pos,Somewhat B,-1
+v2_p1,2,I40,I,Ins/Pos,Clearly A,-2
+v2_p2,2,I40,I,Ins/Pos,Clearly A,-2
+v2_p3,2,I40,I,Ins/Pos,Clearly A,-2
+v2_p4,2,I40,I,Ins/Pos,Somewhat A,-1
+v2_p5,2,I40,I,Ins/Pos,Clearly B,2
+v2_p6,2,I40,I,Ins/Pos,Clearly A,-2
+v2_p7,2,I40,I,Ins/Pos,Somewhat B,1
+v2_p9,2,I40,I,Ins/Pos,Somewhat A,-1
+v2_p10,2,I40,I,Ins/Pos,Clearly A,-2
+v2_p1,2,I25,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I25,I,Ins/Pos,Somewhat B,1
+v2_p3,2,I25,I,Ins/Pos,Clearly A,-2
+v2_p4,2,I25,I,Ins/Pos,Clearly A,-2
+v2_p5,2,I25,I,Ins/Pos,Clearly B,2
+v2_p6,2,I25,I,Ins/Pos,Clearly B,2
+v2_p7,2,I25,I,Ins/Pos,Somewhat B,1
+v2_p9,2,I25,I,Ins/Pos,Somewhat B,1
+v2_p10,2,I25,I,Ins/Pos,Clearly B,2
+v2_p1,2,T46,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T46,T,Mtx/Emb,Clearly B,2
+v2_p3,2,T46,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T46,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T46,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T46,T,Mtx/Emb,Clearly B,2
+v2_p7,2,T46,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T46,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T46,T,Mtx/Emb,Clearly B,2
+v2_p1,2,T6,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T6,T,Mtx/Emb,Somewhat A,-1
+v2_p3,2,T6,T,Mtx/Emb,Somewhat B,1
+v2_p4,2,T6,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T6,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T6,T,Mtx/Emb,Clearly B,2
+v2_p7,2,T6,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T6,T,Mtx/Emb,Somewhat A,-1
+v2_p10,2,T6,T,Mtx/Emb,Clearly B,2
+v2_p1,2,S4,S,Ser/Mul,Clearly A,2
+v2_p2,2,S4,S,Ser/Mul,Somewhat A,1
+v2_p3,2,S4,S,Ser/Mul,Clearly B,-2
+v2_p4,2,S4,S,Ser/Mul,Clearly A,2
+v2_p5,2,S4,S,Ser/Mul,Both equally natural,0
+v2_p6,2,S4,S,Ser/Mul,Somewhat A,1
+v2_p7,2,S4,S,Ser/Mul,Both equally natural,0
+v2_p9,2,S4,S,Ser/Mul,Somewhat A,1
+v2_p10,2,S4,S,Ser/Mul,Both equally natural,0
+v2_p1,2,T37,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T37,T,Mtx/Emb,Clearly A,2
+v2_p3,2,T37,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T37,T,Mtx/Emb,Clearly A,2
+v2_p5,2,T37,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T37,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T37,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T37,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T37,T,Mtx/Emb,Clearly A,2
+v2_p1,2,T11,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T11,T,Mtx/Emb,Somewhat A,1
+v2_p3,2,T11,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T11,T,Mtx/Emb,Clearly A,2
+v2_p5,2,T11,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T11,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T11,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T11,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T11,T,Mtx/Emb,Clearly A,2
+v2_p1,2,T4,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T4,T,Mtx/Emb,Somewhat B,1
+v2_p3,2,T4,T,Mtx/Emb,Both equally natural,0
+v2_p4,2,T4,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T4,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T4,T,Mtx/Emb,Clearly B,2
+v2_p7,2,T4,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T4,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T4,T,Mtx/Emb,Clearly B,2
+v2_p1,2,I12,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I12,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I12,I,Ins/Pos,Clearly A,-2
+v2_p4,2,I12,I,Ins/Pos,Clearly B,2
+v2_p5,2,I12,I,Ins/Pos,Clearly B,2
+v2_p6,2,I12,I,Ins/Pos,Clearly B,2
+v2_p7,2,I12,I,Ins/Pos,Somewhat B,1
+v2_p9,2,I12,I,Ins/Pos,Both equally natural,0
+v2_p10,2,I12,I,Ins/Pos,Clearly B,2
+v2_p1,2,T20,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T20,T,Mtx/Emb,Both equally natural,0
+v2_p3,2,T20,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T20,T,Mtx/Emb,Both equally natural,0
+v2_p5,2,T20,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T20,T,Mtx/Emb,Clearly A,-2
+v2_p7,2,T20,T,Mtx/Emb,Somewhat A,-1
+v2_p9,2,T20,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T20,T,Mtx/Emb,Clearly B,2
+v2_p1,2,I20,I,Ins/Pos,Clearly A,2
+v2_p2,2,I20,I,Ins/Pos,Clearly A,2
+v2_p3,2,I20,I,Ins/Pos,Clearly A,2
+v2_p4,2,I20,I,Ins/Pos,Clearly A,2
+v2_p5,2,I20,I,Ins/Pos,Clearly A,2
+v2_p6,2,I20,I,Ins/Pos,Clearly A,2
+v2_p7,2,I20,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I20,I,Ins/Pos,Somewhat A,1
+v2_p10,2,I20,I,Ins/Pos,Clearly A,2
+v2_p1,2,S30,S,Ser/Mul,Clearly A,2
+v2_p2,2,S30,S,Ser/Mul,Somewhat A,1
+v2_p3,2,S30,S,Ser/Mul,Clearly A,2
+v2_p4,2,S30,S,Ser/Mul,Somewhat A,1
+v2_p5,2,S30,S,Ser/Mul,Clearly B,-2
+v2_p6,2,S30,S,Ser/Mul,Clearly A,2
+v2_p7,2,S30,S,Ser/Mul,Both equally natural,0
+v2_p9,2,S30,S,Ser/Mul,Somewhat A,1
+v2_p10,2,S30,S,Ser/Mul,Clearly A,2
+v2_p1,2,T26,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T26,T,Mtx/Emb,Clearly A,2
+v2_p3,2,T26,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T26,T,Mtx/Emb,Clearly A,2
+v2_p5,2,T26,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T26,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T26,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T26,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T26,T,Mtx/Emb,Clearly A,2
+v2_p1,2,S12,S,Ser/Mul,Clearly B,2
+v2_p2,2,S12,S,Ser/Mul,Both equally natural,0
+v2_p3,2,S12,S,Ser/Mul,Both equally natural,0
+v2_p4,2,S12,S,Ser/Mul,Both equally natural,0
+v2_p5,2,S12,S,Ser/Mul,Clearly A,-2
+v2_p6,2,S12,S,Ser/Mul,Clearly B,2
+v2_p7,2,S12,S,Ser/Mul,Somewhat B,1
+v2_p9,2,S12,S,Ser/Mul,Somewhat B,1
+v2_p10,2,S12,S,Ser/Mul,Clearly B,2
+v2_p1,2,I21,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I21,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I21,I,Ins/Pos,Clearly A,2
+v2_p4,2,I21,I,Ins/Pos,Clearly B,-2
+v2_p5,2,I21,I,Ins/Pos,Clearly A,2
+v2_p6,2,I21,I,Ins/Pos,Somewhat B,-1
+v2_p7,2,I21,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I21,I,Ins/Pos,Somewhat A,1
+v2_p10,2,I21,I,Ins/Pos,Both equally natural,0
+v2_p1,2,I6,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I6,I,Ins/Pos,Clearly B,2
+v2_p3,2,I6,I,Ins/Pos,Clearly A,-2
+v2_p4,2,I6,I,Ins/Pos,Clearly B,2
+v2_p5,2,I6,I,Ins/Pos,Clearly B,2
+v2_p6,2,I6,I,Ins/Pos,Somewhat B,1
+v2_p7,2,I6,I,Ins/Pos,Somewhat A,-1
+v2_p9,2,I6,I,Ins/Pos,Somewhat A,-1
+v2_p10,2,I6,I,Ins/Pos,Somewhat B,1
+v2_p1,2,T3,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T3,T,Mtx/Emb,Somewhat B,1
+v2_p3,2,T3,T,Mtx/Emb,Clearly A,-2
+v2_p4,2,T3,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T3,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T3,T,Mtx/Emb,Somewhat A,-1
+v2_p7,2,T3,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T3,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T3,T,Mtx/Emb,Clearly B,2
+v2_p1,2,T38,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T38,T,Mtx/Emb,Somewhat B,1
+v2_p3,2,T38,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T38,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T38,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T38,T,Mtx/Emb,Clearly B,2
+v2_p7,2,T38,T,Mtx/Emb,Clearly B,2
+v2_p9,2,T38,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T38,T,Mtx/Emb,Clearly B,2
+v2_p1,2,I33,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I33,I,Ins/Pos,Somewhat B,-1
+v2_p3,2,I33,I,Ins/Pos,Clearly B,-2
+v2_p4,2,I33,I,Ins/Pos,Clearly A,2
+v2_p5,2,I33,I,Ins/Pos,Clearly A,2
+v2_p6,2,I33,I,Ins/Pos,Clearly A,2
+v2_p7,2,I33,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I33,I,Ins/Pos,Somewhat A,1
+v2_p10,2,I33,I,Ins/Pos,Both equally natural,0
+v2_p1,2,I23,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I23,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I23,I,Ins/Pos,Both equally natural,0
+v2_p4,2,I23,I,Ins/Pos,Somewhat B,-1
+v2_p5,2,I23,I,Ins/Pos,Clearly A,2
+v2_p6,2,I23,I,Ins/Pos,Clearly A,2
+v2_p7,2,I23,I,Ins/Pos,Somewhat A,1
+v2_p9,2,I23,I,Ins/Pos,Somewhat A,1
+v2_p10,2,I23,I,Ins/Pos,Both equally natural,0
+v2_p1,2,S13,S,Ser/Mul,Clearly A,2
+v2_p2,2,S13,S,Ser/Mul,Somewhat A,1
+v2_p3,2,S13,S,Ser/Mul,Clearly A,2
+v2_p4,2,S13,S,Ser/Mul,Clearly A,2
+v2_p5,2,S13,S,Ser/Mul,Both equally natural,0
+v2_p6,2,S13,S,Ser/Mul,Clearly A,2
+v2_p7,2,S13,S,Ser/Mul,Both equally natural,0
+v2_p9,2,S13,S,Ser/Mul,Somewhat A,1
+v2_p10,2,S13,S,Ser/Mul,Clearly A,2
+v2_p1,2,S7,S,Ser/Mul,Clearly A,2
+v2_p2,2,S7,S,Ser/Mul,Somewhat A,1
+v2_p3,2,S7,S,Ser/Mul,Clearly A,2
+v2_p4,2,S7,S,Ser/Mul,Somewhat A,1
+v2_p5,2,S7,S,Ser/Mul,Clearly A,2
+v2_p6,2,S7,S,Ser/Mul,Clearly A,2
+v2_p7,2,S7,S,Ser/Mul,Somewhat A,1
+v2_p9,2,S7,S,Ser/Mul,Somewhat A,1
+v2_p10,2,S7,S,Ser/Mul,Clearly A,2
+v2_p1,2,T36,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T36,T,Mtx/Emb,Clearly B,2
+v2_p3,2,T36,T,Mtx/Emb,Clearly A,-2
+v2_p4,2,T36,T,Mtx/Emb,Both equally natural,0
+v2_p5,2,T36,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T36,T,Mtx/Emb,Both equally natural,0
+v2_p7,2,T36,T,Mtx/Emb,Somewhat B,1
+v2_p9,2,T36,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T36,T,Mtx/Emb,Both equally natural,0
+v2_p1,2,I36,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I36,I,Ins/Pos,Somewhat A,1
+v2_p3,2,I36,I,Ins/Pos,Clearly A,2
+v2_p4,2,I36,I,Ins/Pos,Clearly A,2
+v2_p5,2,I36,I,Ins/Pos,Clearly A,2
+v2_p6,2,I36,I,Ins/Pos,Clearly A,2
+v2_p7,2,I36,I,Ins/Pos,Somewhat A,1
+v2_p9,2,I36,I,Ins/Pos,Somewhat A,1
+v2_p10,2,I36,I,Ins/Pos,Clearly A,2
+v2_p1,2,T14,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T14,T,Mtx/Emb,Somewhat B,1
+v2_p3,2,T14,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T14,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T14,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T14,T,Mtx/Emb,Clearly B,2
+v2_p7,2,T14,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T14,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T14,T,Mtx/Emb,Clearly B,2
+v2_p1,2,I24,I,Ins/Pos,Clearly B,2
+v2_p2,2,I24,I,Ins/Pos,Clearly B,2
+v2_p3,2,I24,I,Ins/Pos,Clearly A,-2
+v2_p4,2,I24,I,Ins/Pos,Somewhat B,1
+v2_p5,2,I24,I,Ins/Pos,Clearly B,2
+v2_p6,2,I24,I,Ins/Pos,Clearly B,2
+v2_p7,2,I24,I,Ins/Pos,Somewhat B,1
+v2_p9,2,I24,I,Ins/Pos,Somewhat B,1
+v2_p10,2,I24,I,Ins/Pos,Clearly B,2
+v2_p1,2,S25,S,Ser/Mul,Clearly B,2
+v2_p2,2,S25,S,Ser/Mul,Somewhat B,1
+v2_p3,2,S25,S,Ser/Mul,Clearly B,2
+v2_p4,2,S25,S,Ser/Mul,Both equally natural,0
+v2_p5,2,S25,S,Ser/Mul,Clearly B,2
+v2_p6,2,S25,S,Ser/Mul,Clearly B,2
+v2_p7,2,S25,S,Ser/Mul,Somewhat B,1
+v2_p9,2,S25,S,Ser/Mul,Somewhat B,1
+v2_p10,2,S25,S,Ser/Mul,Clearly B,2
+v2_p1,2,I7,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I7,I,Ins/Pos,Somewhat A,1
+v2_p3,2,I7,I,Ins/Pos,Clearly A,2
+v2_p4,2,I7,I,Ins/Pos,Both equally natural,0
+v2_p5,2,I7,I,Ins/Pos,Clearly A,2
+v2_p6,2,I7,I,Ins/Pos,Clearly A,2
+v2_p7,2,I7,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I7,I,Ins/Pos,Both equally natural,0
+v2_p10,2,I7,I,Ins/Pos,Both equally natural,0
+v2_p1,2,S28,S,Ser/Mul,Clearly A,2
+v2_p2,2,S28,S,Ser/Mul,Somewhat A,1
+v2_p3,2,S28,S,Ser/Mul,Clearly A,2
+v2_p4,2,S28,S,Ser/Mul,Both equally natural,0
+v2_p5,2,S28,S,Ser/Mul,Clearly A,2
+v2_p6,2,S28,S,Ser/Mul,Clearly A,2
+v2_p7,2,S28,S,Ser/Mul,Somewhat A,1
+v2_p9,2,S28,S,Ser/Mul,Somewhat A,1
+v2_p10,2,S28,S,Ser/Mul,Clearly A,2
+v2_p1,2,I37,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I37,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I37,I,Ins/Pos,Clearly A,2
+v2_p4,2,I37,I,Ins/Pos,Both equally natural,0
+v2_p5,2,I37,I,Ins/Pos,Clearly A,2
+v2_p6,2,I37,I,Ins/Pos,Clearly A,2
+v2_p7,2,I37,I,Ins/Pos,Somewhat A,1
+v2_p9,2,I37,I,Ins/Pos,Somewhat A,1
+v2_p10,2,I37,I,Ins/Pos,Both equally natural,0
+v2_p1,2,I38,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I38,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I38,I,Ins/Pos,Clearly A,2
+v2_p4,2,I38,I,Ins/Pos,Somewhat B,-1
+v2_p5,2,I38,I,Ins/Pos,Clearly A,2
+v2_p6,2,I38,I,Ins/Pos,Clearly A,2
+v2_p7,2,I38,I,Ins/Pos,Somewhat A,1
+v2_p9,2,I38,I,Ins/Pos,Somewhat A,1
+v2_p10,2,I38,I,Ins/Pos,Both equally natural,0
+v2_p1,2,T12,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T12,T,Mtx/Emb,Somewhat B,1
+v2_p3,2,T12,T,Mtx/Emb,Somewhat B,1
+v2_p4,2,T12,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T12,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T12,T,Mtx/Emb,Somewhat B,1
+v2_p7,2,T12,T,Mtx/Emb,Both equally natural,0
+v2_p9,2,T12,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T12,T,Mtx/Emb,Clearly B,2
+v2_p1,2,T43,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T43,T,Mtx/Emb,Clearly A,2
+v2_p3,2,T43,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T43,T,Mtx/Emb,Both equally natural,0
+v2_p5,2,T43,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T43,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T43,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T43,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T43,T,Mtx/Emb,Clearly A,2
+v2_p1,2,I4,I,Ins/Pos,Clearly A,-2
+v2_p2,2,I4,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I4,I,Ins/Pos,Clearly A,-2
+v2_p4,2,I4,I,Ins/Pos,Both equally natural,0
+v2_p5,2,I4,I,Ins/Pos,Clearly B,2
+v2_p6,2,I4,I,Ins/Pos,Clearly B,2
+v2_p7,2,I4,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I4,I,Ins/Pos,Somewhat A,-1
+v2_p10,2,I4,I,Ins/Pos,Somewhat B,1
+v2_p1,2,S1,S,Ser/Mul,Clearly B,2
+v2_p2,2,S1,S,Ser/Mul,Somewhat B,1
+v2_p3,2,S1,S,Ser/Mul,Clearly B,2
+v2_p4,2,S1,S,Ser/Mul,Both equally natural,0
+v2_p5,2,S1,S,Ser/Mul,Both equally natural,0
+v2_p6,2,S1,S,Ser/Mul,Clearly B,2
+v2_p7,2,S1,S,Ser/Mul,Somewhat B,1
+v2_p9,2,S1,S,Ser/Mul,Somewhat B,1
+v2_p10,2,S1,S,Ser/Mul,Clearly B,2
+v2_p1,2,S6,S,Ser/Mul,Clearly A,2
+v2_p2,2,S6,S,Ser/Mul,Both equally natural,0
+v2_p3,2,S6,S,Ser/Mul,Clearly B,-2
+v2_p4,2,S6,S,Ser/Mul,Somewhat A,1
+v2_p5,2,S6,S,Ser/Mul,Clearly B,-2
+v2_p6,2,S6,S,Ser/Mul,Clearly A,2
+v2_p7,2,S6,S,Ser/Mul,Both equally natural,0
+v2_p9,2,S6,S,Ser/Mul,Somewhat A,1
+v2_p10,2,S6,S,Ser/Mul,Clearly A,2
+v2_p1,2,I1,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I1,I,Ins/Pos,Somewhat B,1
+v2_p3,2,I1,I,Ins/Pos,Clearly A,-2
+v2_p4,2,I1,I,Ins/Pos,Clearly B,2
+v2_p5,2,I1,I,Ins/Pos,Clearly B,2
+v2_p6,2,I1,I,Ins/Pos,Clearly B,2
+v2_p7,2,I1,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I1,I,Ins/Pos,Somewhat B,1
+v2_p10,2,I1,I,Ins/Pos,Somewhat B,1
+v2_p1,2,I2,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I2,I,Ins/Pos,Somewhat B,-1
+v2_p3,2,I2,I,Ins/Pos,Clearly A,2
+v2_p4,2,I2,I,Ins/Pos,Both equally natural,0
+v2_p5,2,I2,I,Ins/Pos,Clearly A,2
+v2_p6,2,I2,I,Ins/Pos,Clearly A,2
+v2_p7,2,I2,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I2,I,Ins/Pos,Somewhat B,-1
+v2_p10,2,I2,I,Ins/Pos,Both equally natural,0
+v2_p1,2,T9,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T9,T,Mtx/Emb,Clearly A,2
+v2_p3,2,T9,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T9,T,Mtx/Emb,Clearly A,2
+v2_p5,2,T9,T,Mtx/Emb,Both equally natural,0
+v2_p6,2,T9,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T9,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T9,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T9,T,Mtx/Emb,Clearly A,2
+v2_p1,2,I49,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I49,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I49,I,Ins/Pos,Clearly A,2
+v2_p4,2,I49,I,Ins/Pos,Clearly A,2
+v2_p5,2,I49,I,Ins/Pos,Clearly A,2
+v2_p6,2,I49,I,Ins/Pos,Clearly A,2
+v2_p7,2,I49,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I49,I,Ins/Pos,Somewhat B,-1
+v2_p10,2,I49,I,Ins/Pos,Both equally natural,0
+v2_p1,2,I48,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I48,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I48,I,Ins/Pos,Clearly B,2
+v2_p4,2,I48,I,Ins/Pos,Both equally natural,0
+v2_p5,2,I48,I,Ins/Pos,Clearly B,2
+v2_p6,2,I48,I,Ins/Pos,Clearly B,2
+v2_p7,2,I48,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I48,I,Ins/Pos,Somewhat B,1
+v2_p10,2,I48,I,Ins/Pos,Both equally natural,0
+v2_p1,2,I11,I,Ins/Pos,Clearly A,-2
+v2_p2,2,I11,I,Ins/Pos,Somewhat A,-1
+v2_p3,2,I11,I,Ins/Pos,Clearly A,-2
+v2_p4,2,I11,I,Ins/Pos,Both equally natural,0
+v2_p5,2,I11,I,Ins/Pos,Clearly B,2
+v2_p6,2,I11,I,Ins/Pos,Clearly B,2
+v2_p7,2,I11,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I11,I,Ins/Pos,Both equally natural,0
+v2_p10,2,I11,I,Ins/Pos,Both equally natural,0
+v2_p1,2,I22,I,Ins/Pos,Clearly B,-2
+v2_p2,2,I22,I,Ins/Pos,Clearly B,-2
+v2_p3,2,I22,I,Ins/Pos,Clearly A,2
+v2_p4,2,I22,I,Ins/Pos,Clearly B,-2
+v2_p5,2,I22,I,Ins/Pos,Clearly A,2
+v2_p6,2,I22,I,Ins/Pos,Somewhat B,-1
+v2_p7,2,I22,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I22,I,Ins/Pos,Somewhat B,-1
+v2_p10,2,I22,I,Ins/Pos,Both equally natural,0
+v2_p1,2,I15,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I15,I,Ins/Pos,Somewhat A,-1
+v2_p3,2,I15,I,Ins/Pos,Clearly A,-2
+v2_p4,2,I15,I,Ins/Pos,Clearly B,2
+v2_p5,2,I15,I,Ins/Pos,Clearly B,2
+v2_p6,2,I15,I,Ins/Pos,Somewhat B,1
+v2_p7,2,I15,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I15,I,Ins/Pos,Somewhat A,-1
+v2_p10,2,I15,I,Ins/Pos,Both equally natural,0
+v2_p1,2,I9,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I9,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I9,I,Ins/Pos,Clearly A,2
+v2_p4,2,I9,I,Ins/Pos,Clearly A,2
+v2_p5,2,I9,I,Ins/Pos,Clearly A,2
+v2_p6,2,I9,I,Ins/Pos,Clearly A,2
+v2_p7,2,I9,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I9,I,Ins/Pos,Somewhat A,1
+v2_p10,2,I9,I,Ins/Pos,Clearly A,2
+v2_p1,2,S27,S,Ser/Mul,Clearly A,2
+v2_p2,2,S27,S,Ser/Mul,Somewhat A,1
+v2_p3,2,S27,S,Ser/Mul,Clearly A,2
+v2_p4,2,S27,S,Ser/Mul,Somewhat A,1
+v2_p5,2,S27,S,Ser/Mul,Both equally natural,0
+v2_p6,2,S27,S,Ser/Mul,Somewhat B,-1
+v2_p7,2,S27,S,Ser/Mul,Both equally natural,0
+v2_p9,2,S27,S,Ser/Mul,Somewhat A,1
+v2_p10,2,S27,S,Ser/Mul,Clearly B,-2
+v2_p1,2,I39,I,Ins/Pos,Clearly A,-2
+v2_p2,2,I39,I,Ins/Pos,Somewhat A,-1
+v2_p3,2,I39,I,Ins/Pos,Both equally natural,0
+v2_p4,2,I39,I,Ins/Pos,Both equally natural,0
+v2_p5,2,I39,I,Ins/Pos,Clearly B,2
+v2_p6,2,I39,I,Ins/Pos,Both equally natural,0
+v2_p7,2,I39,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I39,I,Ins/Pos,Somewhat A,-1
+v2_p10,2,I39,I,Ins/Pos,Both equally natural,0
+v2_p1,2,S11,S,Ser/Mul,Clearly B,2
+v2_p2,2,S11,S,Ser/Mul,Clearly B,2
+v2_p3,2,S11,S,Ser/Mul,Both equally natural,0
+v2_p4,2,S11,S,Ser/Mul,Clearly B,2
+v2_p5,2,S11,S,Ser/Mul,Clearly A,-2
+v2_p6,2,S11,S,Ser/Mul,Somewhat A,-1
+v2_p7,2,S11,S,Ser/Mul,Both equally natural,0
+v2_p9,2,S11,S,Ser/Mul,Somewhat B,1
+v2_p10,2,S11,S,Ser/Mul,Somewhat B,1
+v2_p1,2,S19,S,Ser/Mul,Clearly A,2
+v2_p2,2,S19,S,Ser/Mul,Somewhat A,1
+v2_p3,2,S19,S,Ser/Mul,Clearly A,2
+v2_p4,2,S19,S,Ser/Mul,Both equally natural,0
+v2_p5,2,S19,S,Ser/Mul,Clearly B,-2
+v2_p6,2,S19,S,Ser/Mul,Clearly A,2
+v2_p7,2,S19,S,Ser/Mul,Both equally natural,0
+v2_p9,2,S19,S,Ser/Mul,Somewhat A,1
+v2_p10,2,S19,S,Ser/Mul,Clearly A,2
+v2_p1,2,T30,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T30,T,Mtx/Emb,Clearly A,2
+v2_p3,2,T30,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T30,T,Mtx/Emb,Clearly A,2
+v2_p5,2,T30,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T30,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T30,T,Mtx/Emb,Clearly A,2
+v2_p9,2,T30,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T30,T,Mtx/Emb,Clearly A,2
+v2_p1,2,S17,S,Ser/Mul,Clearly B,2
+v2_p2,2,S17,S,Ser/Mul,Somewhat B,1
+v2_p3,2,S17,S,Ser/Mul,Clearly A,-2
+v2_p4,2,S17,S,Ser/Mul,Clearly B,2
+v2_p5,2,S17,S,Ser/Mul,Both equally natural,0
+v2_p6,2,S17,S,Ser/Mul,Clearly B,2
+v2_p7,2,S17,S,Ser/Mul,Somewhat B,1
+v2_p9,2,S17,S,Ser/Mul,Somewhat B,1
+v2_p10,2,S17,S,Ser/Mul,Clearly B,2
+v2_p1,2,I19,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I19,I,Ins/Pos,Somewhat A,1
+v2_p3,2,I19,I,Ins/Pos,Clearly A,2
+v2_p4,2,I19,I,Ins/Pos,Clearly A,2
+v2_p5,2,I19,I,Ins/Pos,Clearly A,2
+v2_p6,2,I19,I,Ins/Pos,Somewhat A,1
+v2_p7,2,I19,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I19,I,Ins/Pos,Somewhat A,1
+v2_p10,2,I19,I,Ins/Pos,Both equally natural,0
+v2_p1,2,I32,I,Ins/Pos,Clearly A,2
+v2_p2,2,I32,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I32,I,Ins/Pos,Clearly A,2
+v2_p4,2,I32,I,Ins/Pos,Clearly A,2
+v2_p5,2,I32,I,Ins/Pos,Clearly A,2
+v2_p6,2,I32,I,Ins/Pos,Clearly B,-2
+v2_p7,2,I32,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I32,I,Ins/Pos,Somewhat A,1
+v2_p10,2,I32,I,Ins/Pos,Both equally natural,0
+v2_p1,2,T23,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T23,T,Mtx/Emb,Somewhat A,1
+v2_p3,2,T23,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T23,T,Mtx/Emb,Somewhat A,1
+v2_p5,2,T23,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T23,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T23,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T23,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T23,T,Mtx/Emb,Clearly A,2
+v2_p1,2,I47,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I47,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I47,I,Ins/Pos,Clearly A,-2
+v2_p4,2,I47,I,Ins/Pos,Clearly A,-2
+v2_p5,2,I47,I,Ins/Pos,Clearly B,2
+v2_p6,2,I47,I,Ins/Pos,Clearly B,2
+v2_p7,2,I47,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I47,I,Ins/Pos,Somewhat A,-1
+v2_p10,2,I47,I,Ins/Pos,Both equally natural,0
+v2_p1,2,T40,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T40,T,Mtx/Emb,Clearly B,2
+v2_p3,2,T40,T,Mtx/Emb,Clearly A,-2
+v2_p4,2,T40,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T40,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T40,T,Mtx/Emb,Clearly A,-2
+v2_p7,2,T40,T,Mtx/Emb,Somewhat B,1
+v2_p9,2,T40,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T40,T,Mtx/Emb,Clearly B,2
+v2_p1,2,T22,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T22,T,Mtx/Emb,Both equally natural,0
+v2_p3,2,T22,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T22,T,Mtx/Emb,Clearly A,-2
+v2_p5,2,T22,T,Mtx/Emb,Clearly A,-2
+v2_p6,2,T22,T,Mtx/Emb,Somewhat A,-1
+v2_p7,2,T22,T,Mtx/Emb,Somewhat A,-1
+v2_p9,2,T22,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T22,T,Mtx/Emb,Clearly A,-2
+v2_p1,2,S9,S,Ser/Mul,Clearly B,2
+v2_p2,2,S9,S,Ser/Mul,Clearly B,2
+v2_p3,2,S9,S,Ser/Mul,Clearly A,-2
+v2_p4,2,S9,S,Ser/Mul,Both equally natural,0
+v2_p5,2,S9,S,Ser/Mul,Clearly A,-2
+v2_p6,2,S9,S,Ser/Mul,Clearly B,2
+v2_p7,2,S9,S,Ser/Mul,Somewhat B,1
+v2_p9,2,S9,S,Ser/Mul,Somewhat B,1
+v2_p10,2,S9,S,Ser/Mul,Both equally natural,0
+v2_p1,2,I44,I,Ins/Pos,Clearly B,-2
+v2_p2,2,I44,I,Ins/Pos,Clearly B,-2
+v2_p3,2,I44,I,Ins/Pos,Clearly A,2
+v2_p4,2,I44,I,Ins/Pos,Both equally natural,0
+v2_p5,2,I44,I,Ins/Pos,Clearly A,2
+v2_p6,2,I44,I,Ins/Pos,Clearly A,2
+v2_p7,2,I44,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I44,I,Ins/Pos,Both equally natural,0
+v2_p10,2,I44,I,Ins/Pos,Both equally natural,0
+v2_p1,2,S22,S,Ser/Mul,Clearly B,2
+v2_p2,2,S22,S,Ser/Mul,Clearly B,2
+v2_p3,2,S22,S,Ser/Mul,Clearly A,-2
+v2_p4,2,S22,S,Ser/Mul,Both equally natural,0
+v2_p5,2,S22,S,Ser/Mul,Both equally natural,0
+v2_p6,2,S22,S,Ser/Mul,Clearly B,2
+v2_p7,2,S22,S,Ser/Mul,Both equally natural,0
+v2_p9,2,S22,S,Ser/Mul,Somewhat B,1
+v2_p10,2,S22,S,Ser/Mul,Clearly B,2
+v2_p1,2,T7,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T7,T,Mtx/Emb,Clearly B,2
+v2_p3,2,T7,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T7,T,Mtx/Emb,Both equally natural,0
+v2_p5,2,T7,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T7,T,Mtx/Emb,Clearly B,2
+v2_p7,2,T7,T,Mtx/Emb,Somewhat B,1
+v2_p9,2,T7,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T7,T,Mtx/Emb,Clearly B,2
+v2_p1,2,I18,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I18,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I18,I,Ins/Pos,Clearly A,2
+v2_p4,2,I18,I,Ins/Pos,Both equally natural,0
+v2_p5,2,I18,I,Ins/Pos,Clearly A,2
+v2_p6,2,I18,I,Ins/Pos,Clearly A,2
+v2_p7,2,I18,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I18,I,Ins/Pos,Somewhat A,1
+v2_p10,2,I18,I,Ins/Pos,Both equally natural,0
+v2_p1,2,T35,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T35,T,Mtx/Emb,Somewhat A,1
+v2_p3,2,T35,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T35,T,Mtx/Emb,Clearly A,2
+v2_p5,2,T35,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T35,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T35,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T35,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T35,T,Mtx/Emb,Clearly A,2
+v2_p1,2,T34,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T34,T,Mtx/Emb,Clearly B,2
+v2_p3,2,T34,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T34,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T34,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T34,T,Mtx/Emb,Somewhat B,1
+v2_p7,2,T34,T,Mtx/Emb,Somewhat B,1
+v2_p9,2,T34,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T34,T,Mtx/Emb,Clearly B,2
+v2_p1,2,I41,I,Ins/Pos,Clearly A,-2
+v2_p2,2,I41,I,Ins/Pos,Somewhat A,-1
+v2_p3,2,I41,I,Ins/Pos,Clearly A,-2
+v2_p4,2,I41,I,Ins/Pos,Somewhat B,1
+v2_p5,2,I41,I,Ins/Pos,Clearly B,2
+v2_p6,2,I41,I,Ins/Pos,Clearly B,2
+v2_p7,2,I41,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I41,I,Ins/Pos,Somewhat B,1
+v2_p10,2,I41,I,Ins/Pos,Both equally natural,0
+v2_p1,2,I30,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I30,I,Ins/Pos,Clearly A,-2
+v2_p3,2,I30,I,Ins/Pos,Both equally natural,0
+v2_p4,2,I30,I,Ins/Pos,Clearly B,2
+v2_p5,2,I30,I,Ins/Pos,Clearly B,2
+v2_p6,2,I30,I,Ins/Pos,Clearly B,2
+v2_p7,2,I30,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I30,I,Ins/Pos,Somewhat A,-1
+v2_p10,2,I30,I,Ins/Pos,Clearly A,-2
+v2_p1,2,I10,I,Ins/Pos,Clearly B,-2
+v2_p2,2,I10,I,Ins/Pos,Both equally natural,0
+v2_p3,2,I10,I,Ins/Pos,Clearly A,2
+v2_p4,2,I10,I,Ins/Pos,Clearly B,-2
+v2_p5,2,I10,I,Ins/Pos,Clearly A,2
+v2_p6,2,I10,I,Ins/Pos,Somewhat B,-1
+v2_p7,2,I10,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I10,I,Ins/Pos,Both equally natural,0
+v2_p10,2,I10,I,Ins/Pos,Clearly B,-2
+v2_p1,2,I13,I,Ins/Pos,Both equally natural,0
+v2_p2,2,I13,I,Ins/Pos,Somewhat A,-1
+v2_p3,2,I13,I,Ins/Pos,Clearly A,-2
+v2_p4,2,I13,I,Ins/Pos,Clearly B,2
+v2_p5,2,I13,I,Ins/Pos,Clearly B,2
+v2_p6,2,I13,I,Ins/Pos,Clearly B,2
+v2_p7,2,I13,I,Ins/Pos,Both equally natural,0
+v2_p9,2,I13,I,Ins/Pos,Somewhat B,1
+v2_p10,2,I13,I,Ins/Pos,Clearly B,2
+v2_p1,2,S2,S,Ser/Mul,Clearly B,2
+v2_p2,2,S2,S,Ser/Mul,Somewhat B,1
+v2_p3,2,S2,S,Ser/Mul,Both equally natural,0
+v2_p4,2,S2,S,Ser/Mul,Clearly B,2
+v2_p5,2,S2,S,Ser/Mul,Both equally natural,0
+v2_p6,2,S2,S,Ser/Mul,Clearly B,2
+v2_p7,2,S2,S,Ser/Mul,Both equally natural,0
+v2_p9,2,S2,S,Ser/Mul,Somewhat B,1
+v2_p10,2,S2,S,Ser/Mul,Clearly B,2
+v2_p1,2,T21,T,Mtx/Emb,Clearly B,2
+v2_p2,2,T21,T,Mtx/Emb,Clearly B,2
+v2_p3,2,T21,T,Mtx/Emb,Clearly B,2
+v2_p4,2,T21,T,Mtx/Emb,Clearly B,2
+v2_p5,2,T21,T,Mtx/Emb,Clearly B,2
+v2_p6,2,T21,T,Mtx/Emb,Clearly B,2
+v2_p7,2,T21,T,Mtx/Emb,Clearly B,2
+v2_p9,2,T21,T,Mtx/Emb,Somewhat B,1
+v2_p10,2,T21,T,Mtx/Emb,Clearly B,2
+v2_p1,2,S3,S,Ser/Mul,Clearly B,2
+v2_p2,2,S3,S,Ser/Mul,Somewhat B,1
+v2_p3,2,S3,S,Ser/Mul,Clearly B,2
+v2_p4,2,S3,S,Ser/Mul,Both equally natural,0
+v2_p5,2,S3,S,Ser/Mul,Clearly B,2
+v2_p6,2,S3,S,Ser/Mul,Clearly B,2
+v2_p7,2,S3,S,Ser/Mul,Both equally natural,0
+v2_p9,2,S3,S,Ser/Mul,Somewhat A,-1
+v2_p10,2,S3,S,Ser/Mul,Clearly A,-2
+v2_p1,2,T18,T,Mtx/Emb,Clearly A,2
+v2_p2,2,T18,T,Mtx/Emb,Clearly A,2
+v2_p3,2,T18,T,Mtx/Emb,Clearly A,2
+v2_p4,2,T18,T,Mtx/Emb,Clearly A,2
+v2_p5,2,T18,T,Mtx/Emb,Clearly A,2
+v2_p6,2,T18,T,Mtx/Emb,Clearly A,2
+v2_p7,2,T18,T,Mtx/Emb,Somewhat A,1
+v2_p9,2,T18,T,Mtx/Emb,Somewhat A,1
+v2_p10,2,T18,T,Mtx/Emb,Clearly A,2

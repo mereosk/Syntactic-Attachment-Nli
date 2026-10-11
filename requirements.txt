@@ -1,7 +1,11 @@
 # Core Machine Learning & NLP
 torch>=2.0.0
-transformers>=4.30.0
+transformers>=4.51
+accelerate
+sentencepiece
+bitsandbytes
 scipy>=1.10.0
+requests
 
 # Data Manipulation
 pandas>=2.0.0

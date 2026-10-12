@@ -19,7 +19,7 @@ These statistics say that the data are indeed ambiguous. For more see [docs/meth
 
 | Phenomenon                          | Count  | Pass Rate |
 |--------------------------------------|--------|-----------|
-| Matrix vs Embedded Verb Attachment    | 40     | 100%      |
-| Verb Instrument vs Object Attribute   | 40     | 100%      |
+| Matrix vs Embedded Verb Attachment    | 50     | 100%      |
+| Verb Instrument vs Object Attribute   | 50     | 100%      |
 | Serial Attachment                     | 30     | 100%      |
-| **Total**                             | **110**| **100%**  |
+| **Total**                             | **130**| **100%**  |

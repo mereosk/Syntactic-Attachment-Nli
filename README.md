@@ -1,112 +1,83 @@
-# Syntactic Attachment Ambiguity in NLI Models
+# Exploring PP Attachment Preferences with NLI
 
-Evaluation of how NLI models handle syntactic attachment ambiguities, spanning two syntactic phenomena across three semantic domains.
+Code, data and results for probing which prepositional-phrase attachment (High vs. Low) NLI classifiers and LLMs prefer, using NLI minimal pairs with disambiguated controls and graded human judgments.
 
-## 📊 Dataset
+## Data
 
-110 minimal pair items:
-- **Matrix vs Embedded Verb Attachment** (40): adjunct scope over one of two verbs in control constructions (e.g. "promised ... to resign on Monday")
-- **Verb Instrument vs Object Attribute** (40): PP-attachment to the verb (instrument/comitative) vs. the object noun (possession/attribute)
-- **Serial Attachment** (30): PP-attachment nested in a preceding noun vs. flat on the main clause
+`data/final_dataset.json`: 130 triplets, 780 NLI pairs.
 
-Instrument/Attribute and Serial Attachment are both instances of the same underlying noun-vs-verb PP-attachment ambiguity, applied to different semantic content; Matrix vs Embedded Verb Attachment is a structurally distinct verb-vs-verb scope ambiguity. See `docs/methodology.md` for the full breakdown.
+| Category | IDs | Items | Example |
+|---|---|---|---|
+| Instrument vs. Possession (Ins/Pos) | I1–I50 | 50 | *The security guard is stopping the intruder with the flashlight.* |
+| Matrix vs. Embedded (Mtx/Emb) | T1–T50 | 50 | *The knight vowed to defend the king during the ceremony.* |
+| Serial vs. Multiple (Ser/Mul) | S1–S30 | 30 | *The dad is calling the kids in the tent at the campfire.* |
 
-### Data Generation
-Data was generated through:
-1. Manual seed creation (10 per phenomenon)
-2. LLM generation with Gemini Pro 1.5
-3. Ensemble validation (Claude Sonnet 4 + GPT-4o)
-4. Filtering (both hypotheses ≥60, difference ≤20)
+Each triplet has an ambiguous premise with a High-reading (`hypothesis_a`) and a Low-reading (`hypothesis_b`) hypothesis, plus two disambiguated controls (`premise_a` with `hypothesis_aa`/`hypothesis_ab`, `premise_b` with `hypothesis_bb`/`hypothesis_ba`). Field details: `data/README.md`.
 
-See `docs/methodology.md` for details.
+`data/human_results/`: anonymous form exports from the human study (`raw_v1.csv`, `raw_v2.csv`, two counterbalanced versions) and `key.csv` (question → item, which reading was option A, attention-check answers).
 
-## 🚀 Quick Start
+## Reproduce
 
-### Installation
 ```bash
-git clone https://github.com/yourusername/syntactic-attachment-nli.git
-cd syntactic-attachment-nli
 pip install -r requirements.txt
+make          # build results/human, results/analysis, results/paper
+make clean    # delete them again (keeps the model scores)
 ```
 
-> ⚠️ Note: This project uses package-based imports.
-> Always run scripts using `python -m ...` from the repository root.
+`make` rebuilds every table and figure from `results/nli_scores_letters.csv` and the human responses (CPU only, under a minute). Single stages: `make human`, `make analysis`, `make paper`. No `make`? Run the commands under `human`, `analysis` and `paper` in the `Makefile`, in that order.
 
+Re-scoring the models is a separate step. It needs a GPU for the local models and API keys for GPT-4.1, Llama-3.3-70B and DeepSeek-V4-Pro (copy `.env.example` to `.env`):
 
-### Run Analysis
-
-**Option 1: Command Line**
 ```bash
-python -m scripts.run_evaluation
+pip install -r requirements-scoring.txt
+make smoke    # a few API calls to check keys and log-prob coverage
+make scores   # overwrites results/nli_scores_letters.csv
 ```
 
-**Option 2: Jupyter Notebook**
-```bash
-jupyter notebook notebooks/model_evaluation.ipynb
+Models, prompt format and the sections to score are set in `src/config.py`.
+
+## Layout
+
+```
+data/            final_dataset.json, human_results/, archive/ (earlier dataset versions, not used)
+src/             config, prompt templates, model scoring, item metrics
+scripts/
+  eval_*         model scoring
+  human_*        clean form exports, item/participant statistics, human figures
+  model_*        analysis steps 1-5 (controls, contradiction, bias, JSD, Kendall), RQ2 counts
+  paper_*        paper figures and LaTeX tables
+results/
+  nli_scores_letters.csv   model scores: model x item x slot x prompt variant (the only file in git)
+  human/         per-item human lean with 95% CI, participants and exclusions, human figures
+  analysis/      step CSVs and diagnostic figures
+  paper/         figures and LaTeX tables used in the paper
+docs/            dataset design, validation criteria; archive/ = notes from an earlier version
 ```
 
-**Option 3: Import as Module**
-```python
-from src.utils import load_data
-from src.analysis import analyze_model_by_phenomenon
+## Paper ↔ files
 
-data = load_data()
-results = analyze_model_by_phenomenon("roberta-large-mnli", data)
-```
+| Paper | File in `results/paper/` | Numbers from |
+|---|---|---|
+| Fig. 2 | `fig2_bias.pdf` | `analysis/step3_bias*.csv`, `analysis/step1_controls.csv` |
+| Table 1 | `tab1_main.tex` | `analysis/step1_controls.csv`, `step2_contradiction.csv`, `step5_model_vs_human.csv` |
+| Controls per category | `tabA_controls.tex` | `analysis/step1_controls.csv` |
+| Bias: all / ambiguous / other | `tabA_bias.tex` | `analysis/step3_all_vs_ns.csv` |
+| RQ2 per category | `tabA_rq2.tex` | `analysis/rq2_both_entailed.csv`, `step2_contradiction.csv` |
+| Clear preferences | `tabA_clear.tex` | model scores (`paper_tab_clear.py 0.2` / `0.4` for robustness) |
+| Kendall per category | `tabA_kendall.tex` | `analysis/step5_model_vs_human.csv` |
+| Human summary | `tabA_human.tex` | `human/items.csv` |
+| Robustness figure | `figA_bias_balanced.pdf` | `analysis/step3_all_vs_balanced.csv` |
+| P(E) vs. P(C) | `fig_scatter_EC.pdf` | model scores |
+| JSD, clustermaps | `figA_jsd.png`, `figA_cluster_*.png` | `analysis/step4_jsd.csv`, step 5 |
 
-## 📈 Results
+## Definitions
 
-Evaluated models:
-- cross-encoder/nli-deberta-v3-base
-- DeBERTa-v3-large (robust)
-- roberta-large-mnli
-- facebook/bart-large-mnli
+- **Bias** per item: `b = P(E | premise → Low reading) − P(E | premise → High reading)`; positive = Low. LLM scores are averaged over 3 templates × 3 option orders.
+- **Human lean**: −2 (clearly High) to +2 (clearly Low). Participants failing more than 2 of 10 attention checks are excluded (2 of 19).
+- **Human-ambiguous items**: the 95% CI of the item's mean lean includes 0 (main analysis); |mean lean| < 0.5 (robustness).
+- **Control accuracy**: share of items where the entailed control hypothesis gets the higher P(E); flagged below 0.90.
+- **Alignment**: Kendall τ-b between model bias and human lean, computed within each category.
 
-### Key Findings
-- **Low JS distance** (0.22-0.31): Models don't treat baselines as ambiguous
-- **Strong biases** (58-68%): Systematic preferences for specific attachments
-- **Asymmetric accuracy** (88% vs 53%): Better at one disambiguation type
+## License
 
-See `results/` for detailed outputs.
-
-## 📁 Repository Structure
-```
-syntactic-attachment-nli/
-├── data/                  # Dataset (110 items)
-├── src/                   # Core package
-│   ├── __init__.py
-│   ├── analysis.py
-│   ├── visualization.py
-│   ├── utils.py
-│   └── config.py
-├── scripts/               # Entry points
-│   ├── __init__.py
-│   └── run_evaluation.py
-├── notebooks/             # Jupyter notebook
-├── results/               # Generated figures and tables
-├── docs/                  # Documentation
-└── requirements.txt
-```
-
-## 🔧 Dependencies
-
-- transformers
-- torch  
-- pandas
-- matplotlib
-- seaborn
-- scipy
-
-See `requirements.txt` for versions.
-
-## 📝 Citation
-```bibtex
-@misc{anonymous2025syntactic,
-  title        = {Syntactic Attachment Ambiguity in NLI Models: Dataset and Evaluation},
-  author       = {Anonymous},
-  year         = {2025},
-  publisher    = {GitHub},
-  howpublished = {\url{https://anonymous.4open.science/r/your-anon-link-here}},
-  note         = {Unpublished manuscript/Project repository}
-}
-```
+Code: MIT (`LICENSE`). Data (`data/`): CC BY 4.0.

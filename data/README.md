@@ -1,25 +1,31 @@
-# Dataset Documentation
+# Data
 
-## Data Format
+## `final_dataset.json`
 
-Each example contains:
-- `id`: Unique identifier (S1-S30, T1-T40, I1-I40)
-- `type`: Phenomenon type (`Serial Attachment`, `Matrix vs Embedded Verb Attachment`, `Verb Instrument vs Object Attribute`)
-- `premise`: Ambiguous baseline sentence
-- `hypothesis_a`, `hypothesis_b`: Two competing interpretations
-- `premise_a`, `premise_b`: Disambiguated probes
-- `hypothesis_aa`, `hypothesis_ab`, `hypothesis_ba`, `hypothesis_bb`: Probe hypotheses
-- `attachment_a`, `attachment_b`: Structural label for each reading (e.g. `Nested (Modifies Noun 1)` / `Flat (Modifies Verb)`, `Subject/Verb` / `Object`, or `Matrix Verb (V1)` / `Embedded Verb (V2)`)
+130 triplets (JSON list). Fields:
 
-`Serial Attachment` and `Verb Instrument vs Object Attribute` are both instances of the same noun-vs-verb PP-attachment ambiguity applied to different semantic content; `Matrix vs Embedded Verb Attachment` is a structurally distinct verb-vs-verb scope ambiguity. See [docs/methodology.md](../docs/methodology.md) for the full explanation.
+| Field | Meaning |
+|---|---|
+| `id` | `I1`–`I50` Ins/Pos, `T1`–`T50` Mtx/Emb, `S1`–`S30` Ser/Mul |
+| `type` | `Verb Instrument vs Object Attribute`, `Matrix vs Embedded Verb Attachment`, `Serial Attachment` |
+| `premise` | ambiguous premise |
+| `hypothesis_a` / `hypothesis_b` | follows only from the High / Low reading |
+| `premise_a` | High-attachment control premise, with `hypothesis_aa` (entailed) and `hypothesis_ab` (not entailed) |
+| `premise_b` | Low-attachment control premise, with `hypothesis_bb` (entailed) and `hypothesis_ba` (not entailed) |
+| `attachment_a` / `attachment_b` | structural label of each reading (`Subject/Verb` / `Object`, `Matrix Verb (V1)` / `Embedded Verb (V2)`, `Flat (Modifies Verb)` / `Nested (Modifies Noun 1)`) |
 
-## Statistics
+Each triplet yields 6 NLI pairs: `amb_high`, `amb_low`, `ctrlH_ent`, `ctrlH_non`, `ctrlL_ent`, `ctrlL_non` (see `SLOTS` in `src/config.py`).
 
-These statistics say that the data are indeed ambiguous. For more see [docs/methodology.md](../docs/methodology.md)
+## `human_results/`
 
-| Phenomenon                          | Count  | Pass Rate |
-|--------------------------------------|--------|-----------|
-| Matrix vs Embedded Verb Attachment    | 50     | 100%      |
-| Verb Instrument vs Object Attribute   | 50     | 100%      |
-| Serial Attachment                     | 30     | 100%      |
-| **Total**                             | **130**| **100%**  |
+| File | Content |
+|---|---|
+| `raw_v1.csv`, `raw_v2.csv` | form exports of the two counterbalanced versions (A/B order of the readings swapped); no names or contact details |
+| `key.csv` | per version: question title → item id, which reading was option A, expected answer of the 10 attention checks |
+| `v1.csv`, `v2.csv` | cleaned exports, written by `scripts/human_prep.py` (git-ignored) |
+
+`human_prep.py` maps the two sentences that were reworded during collection (T21, T38) to their item ids.
+
+## `archive/`
+
+Earlier dataset versions, kept for reference. No script uses them; `final_dataset.json` is the dataset used in the paper.

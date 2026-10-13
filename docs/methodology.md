@@ -1,38 +1,41 @@
-# Methodology
+# Dataset design
 
-## Phenomena Under Test
+Each item is a triplet of NLI premises: one ambiguous premise and two controls that differ from it only in the PP and allow one attachment. Every premise comes with a hypothesis for the High reading and one for the Low reading, giving 6 NLI pairs per item.
 
-The dataset probes two distinct syntactic ambiguity types, realized across three semantic domains.
+## Categories
 
-### 1. PP-Attachment (Noun vs. Verb)
+**Instrument vs. Possession (Ins/Pos, I1–I50).** The PP is an instrument of the verb (High) or something the object has (Low).
 
-Covers **Serial Attachment** (S1–S30) and **Verb Instrument vs Object Attribute** (I1–I40). Both test the same underlying structural choice: does a trailing PP attach low, to a preceding noun phrase, or high, to the verb/clause?
+| | Premise | High hypothesis | Low hypothesis |
+|---|---|---|---|
+| ambiguous | The security guard is stopping the intruder with the flashlight. | The security guard is using the flashlight to stop the intruder. | The intruder has the flashlight. |
+| High control | … with the tranquilizer gun. | entailed | not entailed |
+| Low control | … with the glowing red eyes. | not entailed | entailed |
 
-- *Serial Attachment*: "The chef chopped the garlic on the board in the kitchen." — does "in the kitchen" modify "the board" (nested) or the chopping event (flat)?
-- *Verb Instrument vs Object Attribute*: "The man hit the thief with the stick." — does "with the stick" modify the verb (instrument) or "the thief" (possession/attribute)?
+**Matrix vs. Embedded (Mtx/Emb, T1–T50).** The modifier belongs to the matrix verb (High) or the embedded verb (Low).
 
-The semantic role assigned to the high-attachment ("flat"/VP) reading varies by verb: it surfaces as a location reading (e.g. S1: subject's location), an instrument reading (e.g. S12, S14, I1–I19), or a comitative/depictive reading (e.g. I20, I23, I25–I32: what the subject is wearing or carrying), depending on which reading the specific verb supports. This is expected, verb-driven variation within a single syntactic phenomenon — not a different phenomenon, and not a data error.
+| | Premise | High hypothesis | Low hypothesis |
+|---|---|---|---|
+| ambiguous | The knight vowed to defend the king during the ceremony. | The vow was made during the ceremony. | The king was to be defended during the ceremony. |
+| High control | … with a solemn oath. | entailed | not entailed |
+| Low control | … from enemy attacks. | not entailed | entailed |
 
-### 2. Verb-vs-Verb Adjunct Scope (Matrix vs Embedded Verb Attachment)
+**Serial vs. Multiple (Ser/Mul, S1–S30).** Of two final PPs, the last one attaches to the verb or subject (High, multiple attachment) or to the noun of the preceding PP (Low, serial attachment).
 
-Covers T1–T40. Tests control-verb constructions where an adjunct can scope over either of two verbs: "The CEO promised the board to resign on Monday." — does "on Monday" scope over "promised" (matrix, V1) or "resign" (embedded, V2)? Unlike the PP-attachment items above, both candidate attachment sites are verbal heads in a biclausal control structure, not a noun/verb pair. This makes it a structurally distinct phenomenon from Serial Attachment and Instrument/Attribute, correctly kept as its own category.
+| | Premise | High hypothesis | Low hypothesis |
+|---|---|---|---|
+| ambiguous | The dad is calling the kids in the tent at the campfire. | The dad is at the campfire. | The tent is at the campfire. |
+| High control | … from the canoe. | entailed | not entailed |
+| Low control | … with the striped roof. | not entailed | entailed |
 
-## Disambiguation Method
+## Constraints
 
-Each ambiguous baseline premise is paired with two probe premises (`premise_a`, `premise_b`), each introducing a modifier compatible with only one of the two attachment readings. This forces one hypothesis to be true and the other implausible — e.g. "the board was wearing an apron" (impossible) vs. "the chef was wearing an apron" (natural).
+The criteria every triplet was checked against are in `validate_prompt.md`. In short: the ambiguous premise has two independent, roughly equally likely readings; each hypothesis follows from exactly one reading; the three premises are the same sentence except for the PP; hypotheses have no attachment ambiguity of their own and no pronouns referring back into the sentence.
 
-This is the standard forcing technique used in the PP-attachment psycholinguistics literature (cf. Hindle & Rooth, 1993, on lexical association and structural ambiguity). It inherently combines syntax with world-knowledge plausibility rather than isolating syntax alone — a model could in principle rule out the false hypothesis via lexical implausibility without ever resolving the actual attachment structure. This is a known, accepted limitation of the method, not an oversight (see Limitations).
+The controls disambiguate through plausibility (a guard does not use glowing red eyes as a tool), so they test attachment together with world knowledge, not syntax alone.
 
-## Data Generation
+## Construction
 
-1. Manual seed creation (10 per phenomenon)
-2. LLM generation with Gemini Pro 1.5
-3. Ensemble validation (Claude Sonnet 4 + GPT-4o)
-4. Filtering (both baseline hypotheses ≥60 plausibility, difference ≤20)
+Items were written semi-automatically: LLM-based generation and validation, followed by substantial manual revision. How balanced each ambiguous premise is was then measured in a human study (17 participants, 5-point scale from clearly High to clearly Low); see `data/README.md` and `results/human/` after `make`.
 
-The filtering criterion requires both `hypothesis_a` and `hypothesis_b` to be jointly plausible on the ambiguous baseline premise. This is intentional, not a flaw: genuine PP-attachment and verb-scope ambiguity does not require the two readings to be mutually exclusive in the world, only that the sentence's structure alone fails to resolve which is asserted.
-
-## Limitations
-
-- **Plausibility-based forcing.** The disambiguating probes test a combination of syntactic and world-knowledge competence rather than isolating pure syntax. A model can sometimes reach the correct answer via lexical/semantic implausibility of the wrong reading rather than by genuinely resolving the attachment site.
-- **Joint truth of baseline hypotheses.** Ambiguous baseline items are frequently true under both readings simultaneously in the real world (e.g., if a subject acts on an object in a room, the subject is typically also in that room). This is expected for PP-attachment items given the filtering criterion above, and does not undermine the disambiguation probes, which are constructed independently of the baseline pair.
+`archive/` holds notes and figures from an earlier version of the dataset and its construction pipeline; they do not describe the final data.

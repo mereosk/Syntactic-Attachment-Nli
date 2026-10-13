@@ -1,3 +1,9 @@
+# Validation prompt
+
+Criteria used to check the triplets during dataset construction (prompt text verbatim).
+
+---
+
 I want you to validate the data.
 I have triples of triples, <p, h_a, h_b>, where the first element is the premise and the other two are hypotheses.
 I want the sentences to stand in the following relations:

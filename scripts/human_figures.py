@@ -1,15 +1,15 @@
 """
 Figures for the PP-attachment human rating study.
 
-Reads the output of analyze_human.py (results/human/items.csv and responses.csv) and writes,
+Reads the output of human_analysis.py (results/human/items.csv and responses.csv) and writes,
 into the same folder, as PNG and PDF:
   fig_item_lean      mean human lean per item (95% CI), sorted, one panel per category
   fig_answer_shares  diverging stacked bars of the 5-point answers per category
   fig_item_violin    distribution of item mean leans per category (violin, item dots, mean ± 95% CI)
   fig_human_summary  fig_answer_shares and fig_item_violin side by side as panels (a) and (b)
 
-Usage (run prep_responses.py and analyze_human.py first):
-  python scripts/plot_human.py [--dir results/human]
+Usage (run human_prep.py and human_analysis.py first):
+  python scripts/human_figures.py [--dir results/human]
 """
 import argparse
 from pathlib import Path
@@ -22,7 +22,7 @@ from matplotlib.lines import Line2D
 ROOT = Path(__file__).resolve().parents[1]
 CATS = ["Ins/Pos", "Mtx/Emb", "Ser/Mul"]
 COLORS = {"Ins/Pos": "#4C72B0", "Mtx/Emb": "#DD8452", "Ser/Mul": "#55A868"}  # same as src/visualization.py
-BALANCED_HALF_WIDTH = 0.5  # keep in sync with analyze_human.py
+BALANCED_HALF_WIDTH = 0.5  # keep in sync with human_analysis.py
 
 # diverging scale: High reading (warm) <- grey midpoint -> Low reading (cool)
 LEVELS = [(-2, "Clearly High", "#c4472b"), (-1, "Somewhat High", "#f0a58c"),
@@ -172,7 +172,7 @@ def plot_summary(items, resp, out):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dir", type=Path, default=ROOT / "results" / "human",
-                    help="folder with analyze_human.py output; figures are written here too")
+                    help="folder with human_analysis.py output; figures are written here too")
     a = ap.parse_args()
     items = pd.read_csv(a.dir / "items.csv")
     resp = pd.read_csv(a.dir / "responses.csv")

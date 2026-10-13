@@ -1,4 +1,10 @@
 .env
 __pycache__/
+
+# everything in results/ is rebuilt by `make`, except the model scores (`make scores` needs a GPU + API keys)
+results/*
+!results/nli_scores_letters.csv
+
+# rebuilt by `make` from raw_v1.csv / raw_v2.csv
 data/human_results/v1.csv
 data/human_results/v2.csv

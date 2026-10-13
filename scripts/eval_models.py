@@ -1,6 +1,6 @@
 """
 Standalone script to run full evaluation.
-Usage: python scripts/run_evaluation.py
+Usage: python -m scripts.eval_models
 """
 
 

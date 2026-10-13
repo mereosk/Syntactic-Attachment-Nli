@@ -8,8 +8,8 @@ Inputs (download each sheet from the Google Sheet with File > Download > CSV):
 Optional:
   --models nli_scores_letters.csv   model results (long format) for the human-model comparison
 
-Usage (defaults read data/human_results/, run scripts/prep_responses.py first):
-  python scripts/analyze_human.py [key.csv v1.csv v2.csv] [--models results/nli_scores_letters.csv]
+Usage (defaults read data/human_results/, run scripts/human_prep.py first):
+  python scripts/human_analysis.py [key.csv v1.csv v2.csv] [--models results/nli_scores_letters.csv]
 
 Scale coding: human_lean runs from -2 (clearly the High reading) to +2 (clearly the Low reading),
 so its sign matches the models' signed recency bias (positive = Low / recency).
@@ -49,6 +49,15 @@ def load_long(key, path, version):
     return long
 
 
+def check_participants(long):
+    """Attention checks per participant; excluded = more than MAX_FAILED_CHECKS failed."""
+    chk = long[long["kind"] == "check"].copy()
+    chk["passed"] = np.where(chk["expected"] == "High", chk["human_lean"] < 0, chk["human_lean"] > 0)
+    part = chk.groupby("participant").agg(checks=("passed", "size"), failed=("passed", lambda x: int((~x).sum())))
+    part["excluded"] = part["failed"] > MAX_FAILED_CHECKS
+    return part
+
+
 def split_half_reliability(items_long, n_splits=200, seed=0):
     """Correlation of item means between random halves of participants, Spearman-Brown corrected."""
     rng = np.random.default_rng(seed)
@@ -79,9 +88,9 @@ def model_item_lean(models_csv):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("key", nargs="?", default=HUMAN_DIR / "human_study_items - key.csv")
-    ap.add_argument("v1", nargs="?", default=HUMAN_DIR / "v1.csv", help="output of prep_responses.py")
-    ap.add_argument("v2", nargs="?", default=HUMAN_DIR / "v2.csv", help="output of prep_responses.py")
+    ap.add_argument("key", nargs="?", default=HUMAN_DIR / "key.csv")
+    ap.add_argument("v1", nargs="?", default=HUMAN_DIR / "v1.csv", help="output of human_prep.py")
+    ap.add_argument("v2", nargs="?", default=HUMAN_DIR / "v2.csv", help="output of human_prep.py")
     ap.add_argument("--models", help="nli_scores_letters.csv (long model results)")
     ap.add_argument("--out", default=ROOT / "results" / "human", type=Path, help="output folder")
     a = ap.parse_args()
@@ -90,11 +99,7 @@ def main():
     key = pd.read_csv(a.key)
     long = pd.concat([load_long(key, a.v1, 1), load_long(key, a.v2, 2)], ignore_index=True)
 
-    # attention checks
-    chk = long[long["kind"] == "check"].copy()
-    chk["passed"] = np.where(chk["expected"] == "High", chk["human_lean"] < 0, chk["human_lean"] > 0)
-    part = chk.groupby("participant").agg(checks=("passed", "size"), failed=("passed", lambda x: int((~x).sum())))
-    part["excluded"] = part["failed"] > MAX_FAILED_CHECKS
+    part = check_participants(long)
     keep = set(part.index[~part["excluded"]])
     print(f"participants: {len(part)} | excluded: {int(part['excluded'].sum())} "
           f"(more than {MAX_FAILED_CHECKS} failed checks)")

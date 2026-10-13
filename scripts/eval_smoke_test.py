@@ -1,6 +1,6 @@
 """
 Quick API check on a few pairs before a full run.
-Usage: python -m scripts.smoke_test
+Usage: python -m scripts.eval_smoke_test
 """
 
 

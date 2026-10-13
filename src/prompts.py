@@ -6,7 +6,7 @@ from .config import PROMPT_FORMAT
 
 LABELS = ["entailment", "neutral", "contradiction"]
 
-# format 1: letters (lasha's format) 
+# format 1: letters (main format)
 OPTION_TEXT = {"entailment":    "Most likely true.",
                "contradiction": "Most likely false.",
                "neutral":       "It cannot be determined."}
@@ -16,7 +16,7 @@ ROTATIONS = {  # each label appears once in each position
     "r3": ["neutral", "entailment", "contradiction"],
 }
 TEMPLATES_LETTERS = {
-    # T1: lasha format, unchanged (standard MCQ layout, cite Zheng et al. 2024)
+    # T1: base format (standard MCQ layout, cf. Zheng et al. 2024)
     "T1": ("Choose one of the three letters to answer the question.\n"
            "Return only A, B, or C.\n\n"
            "Suppose this sentence is true:\n\"{premise}\"\n\n"

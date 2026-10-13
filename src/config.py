@@ -12,7 +12,7 @@ OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 DATA_DIR = PROJECT_ROOT / "data"
-DATA_FILE = DATA_DIR / "revised_data.json"
+DATA_FILE = DATA_DIR / "final_dataset.json"
 
 RESULTS_DIR = PROJECT_ROOT / "results"
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)

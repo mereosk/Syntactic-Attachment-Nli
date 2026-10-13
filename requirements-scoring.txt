@@ -1,0 +1,10 @@
+# Model scoring (`make scores`, `make smoke`): everything in requirements.txt plus the model stack
+-r requirements.txt
+torch>=2.0
+transformers>=4.51
+huggingface_hub
+accelerate
+sentencepiece
+bitsandbytes
+requests
+tqdm>=4.65
